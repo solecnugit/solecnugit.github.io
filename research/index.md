@@ -1,27 +1,33 @@
 ---
-title: Research
+title: 研究
 nav:
   order: 1
-  tooltip: Published works
+  tooltip: 科研成果列表
 ---
 
-# {% include icon.html icon="fa-solid fa-microscope" %}Research
+# {% include icon.html icon="fa-solid fa-microscope" %}研究
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-{% include section.html %}
-
-## Highlighted
-
-{% include citation.html lookup="Open collaborative writing with Manubot" style="rich" %}
+{%
+  include figure.html
+  image="images/ResearchScope.jpg"
+  caption=""
+  width="70%"
+%}
 
 {% include section.html %}
 
-## All
+## 代表性研究成果
+
+{% include citation.html lookup="Efficient Cross-platform Multiplexing of Hardware Performance Counters via Adaptive Grouping" style="rich" %}
+
+{% include citation.html lookup="TCSA: Efficient Localization of Busy-Wait Synchronization Bugs for Latency-Critical Applications" style="rich" %}
+
+{% include section.html %}
+
+## 研究成果列表
 
 {% include search-box.html %}
 
 {% include search-info.html %}
 
-{% include list.html data="citations" component="citation" style="rich" %}
+{% include list.html data="citations" component="citation" %}
