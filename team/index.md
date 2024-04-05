@@ -13,7 +13,8 @@ nav:
 
 ### 导师
 
-{% include list.html data="members" component="portrait" filters="role: teacher" %}
+{% include list.html data="members" component="portrait" filters="role: teacher, name: 黄波" %}
+{% include list.html data="members" component="portrait" filters="role: teacher, name: 郭健美" %}
 
 ### 博士研究生
 
