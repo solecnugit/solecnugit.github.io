@@ -1,3 +1,13 @@
+- title: hperf
+  subtitle: 跨平台微体系架构性能测量工具
+  group: featured
+  image: images/photo.jpg
+  link: https://jihulab.com/solecnu/hperf
+  description: 一个在Linux操作系统上跨指令集架构的微架构性能数据采集工具，可用于工作负载的微架构层面的特征分析
+  repo: solecnugit/hperf
+  tags:
+    - performance measurement
+
 - title: Cool Dataset
   subtitle: a subtitle
   group: featured

@@ -30,7 +30,7 @@ nav:
 
 ### 校友
 
-{% include list.html data="members" component="portrait" filters="role: alumini" style="small" %}
+{% include list.html data="members" component="portrait" filters="role: alumni" style="small" %}
 
 {% include section.html %}
 

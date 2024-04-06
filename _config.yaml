@@ -1,11 +1,11 @@
 # See: https://greene-lab.gitbook.io/lab-website-template-docs/basics/configure-your-site
 
 # site properties and page defaults
-title: System Optimization Lab @ East China Normal University (SOLE)
-subtitle: 华东师范大学系统优化实验室
+title: System Optimization Lab
+subtitle: East China Normal University
 description: 华东师范大学系统优化实验室 # 在搜索引擎中会出现的描述信息，应当更改为实验室的一句话简介
-show-title: true
-show-subtitle: true
+show-title: false
+show-subtitle: false  # 由于logo已经有了名称了，这里就不显示了
 header: images/background.jpg
 footer: images/background.jpg
 proofer: false
