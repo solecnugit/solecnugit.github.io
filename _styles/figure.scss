@@ -17,7 +17,7 @@
 .figure-image img {
   border-radius: var(--rounded);
   overflow: hidden;
-  box-shadow: var(--shadow);
+  // box-shadow: var(--shadow); # Hide the shadow
 }
 
 .figure-caption {
