@@ -2,7 +2,7 @@
 <svg width="360px" height="40px" viewBox="0 0 360 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>SOLE</title>
     <g id="Sole_logo_b" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <text id="SYSTEM-OPTIMIZATION" font-family="SourceHanSansSC-Medium, Source Han Sans SC" font-size="17" font-weight="400" line-spacing="22.5" letter-spacing="0.2" fill="#7E7E7E">
+        <text id="SYSTEM-OPTIMIZATION" font-family="SourceHanSansSC-Medium, Source Han Sans SC" font-size="17" font-weight="400" line-spacing="22.5" letter-spacing="0.2" fill="#FFFFFF">
             <tspan x="125" y="17">SYSTEM OPTIMIZATION LAB</tspan>
             <tspan x="125" y="39.5">ECNU</tspan>
         </text>
