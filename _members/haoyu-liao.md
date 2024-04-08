@@ -7,4 +7,4 @@ links:
   email: hyliao@stu.ecnu.edu.cn
 ---
 
-廖浩宇，男，四川乐山人。
+廖浩宇，男。
