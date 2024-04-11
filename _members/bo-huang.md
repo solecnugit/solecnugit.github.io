@@ -1,8 +1,8 @@
 ---
-name: 黄波
+name: Bo Huang
 image: images/photo.jpg
 role: teacher
-description: 特聘教授
+description: Distinguished Professor
 links:
   home-page: https://faculty.ecnu.edu.cn/_s37/hb2/main.psp
   email: bhuang@dase.ecnu.edu.cn

@@ -1,8 +1,8 @@
 ---
-title: 项目
+title: projects
 nav:
-  order: 2
-  tooltip: 在研项目、开源软件等
+  order: 3
+  tooltip: Open source tools, and more
 ---
 
 # {% include icon.html icon="fa-solid fa-wrench" %}项目

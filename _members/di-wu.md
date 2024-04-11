@@ -1,8 +1,9 @@
 ---
-name: 吴迪
+name: Di Wu
 image: images/photo.jpg
 role: masterstu
-description: 2022 级
+grade: 2022
+description:
 links:
   email: wuuudiii@qq.com
 ---

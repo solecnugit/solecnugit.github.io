@@ -41,7 +41,7 @@ collections:
   # generate page for each member
   members:
     output: true
-    sort_by: description    # 按这个字段排序，见 https://jekyllrb.com/docs/collections/#custom-sorting-of-documents
+    sort_by: grade    # 按这个字段排序，见 https://jekyllrb.com/docs/collections/#custom-sorting-of-documents
   # generate page for each post
   posts:
     output: true
