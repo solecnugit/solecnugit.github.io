@@ -1,8 +1,9 @@
 ---
-name: 徐志杰
-image: images/photo.jpg
+name: Zhijie Xu
+image: images/photo.svg
 role: masterstu
-description: 2022 级
+grade: 2022
+description: 
 links:
   email: 51255903062@stu.ecnu.edu.cn
 ---

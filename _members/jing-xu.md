@@ -1,8 +1,9 @@
 ---
-name: 徐静
-image: images/photo.jpg
+name: Jing Xu
+image: images/photo.svg
 role: masterstu
-description: 2023 级
+grade: 2023
+description: 
 links:
   email: 51265903015@stu.ecnu.edu.cn
 ---

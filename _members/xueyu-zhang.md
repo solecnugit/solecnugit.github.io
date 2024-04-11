@@ -1,8 +1,9 @@
 ---
-name: 张雪玉
-image: images/photo.jpg
+name: Xue-yu Zhang
+image: images/photo.svg
 role: masterstu
-description: 2021 级
+grade: 2021
+description: 
 links:
   email: xyzhang@stu.ecnu.edu.cn
 ---

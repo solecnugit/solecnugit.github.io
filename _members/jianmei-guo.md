@@ -1,8 +1,9 @@
 ---
-name: 郭健美
-image: images/photo.jpg
+name: Jianmei Guo
+image: images/photo.svg
 role: teacher
-description: 教授
+grade: 2021
+description: Professor
 links:
   home-page: https://faculty.ecnu.edu.cn/_s37/gjm/main.psp
   email: jmguo@dase.ecnu.edu.cn

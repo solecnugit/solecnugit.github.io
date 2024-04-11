@@ -1,8 +1,9 @@
 ---
-name: 杨桐
-image: images/photo.jpg
+name: Tong Yang
+image: images/photo.svg
 role: masterstu
-description: 2023 级
+grade: 2023
+description: 
 links:
   email: tyang2001@163.com
 ---

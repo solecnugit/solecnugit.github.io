@@ -1,8 +1,9 @@
 ---
-name: 卫涛
-image: images/photo.jpg
+name: Tao Wei
+image: images/photo.svg
 role: masterstu
-description: 2022 级
+grade: 2022
+description: 
 links:
   email: w1136862851@qq.com
 ---

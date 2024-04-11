@@ -1,8 +1,9 @@
 ---
-name: 施瑾睿
-image: images/photo.jpg
+name: Jinrui Shi
+image: images/photo.svg
 role: masterstu
-description: 2023 级
+grade: 2023
+description: 
 links:
   email: 1379998393@qq.com
 ---

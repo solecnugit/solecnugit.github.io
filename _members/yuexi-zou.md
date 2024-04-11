@@ -1,8 +1,9 @@
 ---
-name: 邹越溪
-image: images/photo.jpg
+name: Yuexi Zou
+image: images/photo.svg
 role: undergraduatestu
-description: 2020 级
+grade: 2020
+description: 
 links:
   email: yuexi@stu.ecnu.edu.cn
 ---

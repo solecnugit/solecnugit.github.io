@@ -1,8 +1,9 @@
 ---
-name: 张义磊
-image: images/photo.jpg
+name: Yilei Zhang
+image: images/photo.svg
 role: phdstu
-description: 2021 级
+grade: 2021
+description: 
 links:
   email: ylzhang@stu.ecnu.edu.cn
 ---

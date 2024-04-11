@@ -1,8 +1,9 @@
 ---
-name: 王泽锟
-image: images/photo.jpg
+name: Zekun Wang
+image: images/photo.svg
 role: masterstu
-description: 2022 级
+grade: 2022
+description: 
 links:
   email: 1131623843@qq.com
 ---

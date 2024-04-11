@@ -1,8 +1,9 @@
 ---
-name: 李宁
-image: images/photo.jpg
+name: Ning Li
+image: images/photo.svg
 role: phdstu
-description: 2021 级
+grade: 2021
+description: 
 links:
   email: ningli@stu.ecnu.edu.cn
 ---

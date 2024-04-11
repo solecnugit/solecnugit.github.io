@@ -1,9 +1,9 @@
 ---
 name: Haoyu Liao
-image: images/photo.jpg
+image: images/photo.svg
 role: masterstu
 grade: 2022
-description: 2022 级
+description: 
 links:
   email: hyliao@stu.ecnu.edu.cn
 ---

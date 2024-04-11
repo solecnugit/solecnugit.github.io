@@ -1,8 +1,9 @@
 ---
-name: 梁文辉
-image: images/photo.jpg
+name: Wenhui Liang
+image: images/photo.svg
 role: masterstu
-description: 2021 级
+grade: 2021
+description: 
 links:
   email: 51215903095@stu.ecnu.edu.cn
 ---

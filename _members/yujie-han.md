@@ -1,8 +1,9 @@
 ---
-name: 韩宇捷
-image: images/photo.jpg
+name: Yujie Han
+image: images/photo.svg
 role: masterstu
-description: 2022 级
+grade: 2022
+description: 
 links:
   email: 51255903081@stu.ecnu.edu.cn
 ---
