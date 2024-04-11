@@ -39,21 +39,21 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>动态 | System Optimization Lab</title>
+<title>publications | System Optimization Lab</title>
 
 <link rel="icon" href="/images/icon.png">
 
-<meta name="title" content="动态">
+<meta name="title" content="publications">
 <meta name="description" content="East China Normal University. 华东师范大学系统优化实验室">
 
-<meta property="og:title" content="动态">
+<meta property="og:title" content="publications">
 <meta property="og:site_title" content="System Optimization Lab">
 <meta property="og:description" content="East China Normal University. 华东师范大学系统优化实验室">
 <meta property="og:url" content="https://solecnugit.github.io">
 <meta property="og:image" content="/images/share.jpg">
 <meta property="og:locale" content="en_US">
 
-<meta property="twitter:title" content="动态">
+<meta property="twitter:title" content="publications">
 <meta property="twitter:description" content="East China Normal University. 华东师范大学系统优化实验室">
 <meta property="twitter:url" content="https://solecnugit.github.io">
 <meta property="twitter:card" content="summary_large_image">
@@ -69,9 +69,9 @@
     
       "@type": "WebSite",
     
-    "name": "动态",
+    "name": "publications",
     "description": "East China Normal University. 华东师范大学系统优化实验室",
-    "headline": "动态",
+    "headline": "publications",
     "publisher": {
       "@type": "Organization",
       "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
@@ -413,32 +413,26 @@
     
     
       
-        <a href="/research/" data-tooltip="科研成果列表">
-          研究
+        <a href="/news/" data-tooltip="Lab news and events">
+          news
         </a>
       
     
       
-        <a href="/projects/" data-tooltip="在研项目、开源软件等">
-          项目
+        <a href="/team/" data-tooltip="About our team members">
+          team
         </a>
       
     
       
-        <a href="/team/" data-tooltip="实验室成员信息">
-          成员
+        <a href="/projects/" data-tooltip="Open source tools, and more">
+          projects
         </a>
       
     
       
-        <a href="/blog/" data-tooltip="实验室近期新闻动态">
-          动态
-        </a>
-      
-    
-      
-        <a href="/contact/" data-tooltip="招生信息">
-          加入我们
+        <a href="/publications/" data-tooltip="Published works">
+          publications
         </a>
       
     
@@ -463,8 +457,23 @@
   
 
   <section class="background" data-size="page">
-    <h1 id="动态">
-<i class="icon fa-solid fa-feather-pointed"></i>动态</h1>
+    <h1 id="研究">
+<i class="icon fa-solid fa-microscope"></i>研究</h1>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/images/ResearchScope.jpg" style="
+        width: 70%;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+    <figcaption class="figure-caption">
+      
+
+    </figcaption>
+  
+</figure>
   </section>
 
   
@@ -478,6 +487,230 @@
   size: ;
 -->
 
+<h2 id="代表性研究成果">代表性研究成果</h2>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://dl.acm.org/doi/10.1145/3629525" class="citation-image" aria-label="Efficient Cross-platform Multiplexing of Hardware Performance Counters via Adaptive Grouping">
+        <img src="https://dl.acm.org/cms/asset/bbbdb988-4ba9-42b3-b749-a7c78fe53a98/taco-2023-84-f01.jpg" alt="Efficient Cross-platform Multiplexing of Hardware Performance Counters via Adaptive Grouping" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://dl.acm.org/doi/10.1145/3629525" class="citation-title">
+        Efficient Cross-platform Multiplexing of Hardware Performance Counters via Adaptive Grouping
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Tong-Yu Liu, Jianmei Guo, Bo Huang
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">ACM Transactions on Architecture and Code Optimization</span>
+         · 
+        <span class="citation-date">19 Jan 2024</span>
+        <!--
+        &nbsp;·&nbsp;
+        <span class="citation-id">[no id info]</span>
+        -->
+      </div>
+
+      
+        
+          <div class="citation-description">
+            Collecting sufficient microarchitecture performance data is essential for performance evaluation and workload characterization. There are many events to be monitored in a modern processor while only a few hardware performance monitoring counters (PMCs) can be used, so multiplexing is commonly adopted. However, inefficiency commonly exists in state-of-the-art profiling tools when grouping events for multiplexing PMCs. It has the risk of inaccurate measurement and misleading analysis. Commercial tools can leverage PMCs, but they are closed source and only support their specified platforms. To this end, we propose an approach for efficient cross-platform microarchitecture performance measurement via adaptive grouping, aiming to improve the metrics’ sampling ratios. The approach generates event groups based on the number of available PMCs detected on arbitrary machines while avoiding the scheduling pitfall of Linux perf_event subsystem. We evaluate our approach with SPEC CPU 2017 on four mainstream x86-64 and AArch64 processors and conduct comparative analyses of efficiency with two other state-of-the-art tools, LIKWID and ARM Top-down Tool. The experimental results indicate that our approach gains around 50% improvement in the average sampling ratio of metrics without compromising the correctness and reliability.
+
+          </div>
+        
+
+        
+          <div class="citation-buttons">
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://dl.acm.org/doi/10.1145/3629525" data-tooltip="Website" data-style="bare" aria-label="Website">
+      <i class="icon fa-solid fa-globe"></i>
+      
+        <span>Website</span>
+      
+    </a>
+  </div>
+
+
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/GraysonLiu23/hperf" data-tooltip="Source code" data-style="bare" aria-label="Source code">
+      <i class="icon fa-solid fa-code"></i>
+      
+        <span>Source</span>
+      
+    </a>
+  </div>
+
+
+            
+          </div>
+        
+
+        
+          
+
+
+  <div class="tags" data-link="https://solecnugit.github.io/publications/">
+    
+      <a href="https://solecnugit.github.io/publications/?search=%22tag:%20performance%20monitoring%20unit%22" class="tag" data-tooltip='Show items with the tag "performance monitoring unit"'>
+        performance monitoring unit
+      </a>
+    
+      <a href="https://solecnugit.github.io/publications/?search=%22tag:%20hardware%20performance%20counter%22" class="tag" data-tooltip='Show items with the tag "hardware performance counter"'>
+        hardware performance counter
+      </a>
+    
+      <a href="https://solecnugit.github.io/publications/?search=%22tag:%20performance%20measurement%22" class="tag" data-tooltip='Show items with the tag "performance measurement"'>
+        performance measurement
+      </a>
+    
+  </div>
+
+
+        
+      
+    </div>
+  </div>
+</div>
+
+<div class="citation-container">
+  <div class="citation">
+    
+      <a href="https://ieeexplore.ieee.org/document/10356837" class="citation-image" aria-label="TCSA: Efficient Localization of Busy-Wait Synchronization Bugs for Latency-Critical Applications">
+        <img src="https://img2.imgtp.com/2024/04/05/BVvl8hcF.jpg" alt="TCSA: Efficient Localization of Busy-Wait Synchronization Bugs for Latency-Critical Applications" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
+      </a>
+    
+
+    <div class="citation-text">
+      
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://ieeexplore.ieee.org/document/10356837" class="citation-title">
+        TCSA: Efficient Localization of Busy-Wait Synchronization Bugs for Latency-Critical Applications
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Ning Li, Jianmei Guo, Bo Huang, Yuyang Li, Yilei Zhang, Chengdong Li, Wenxin Huang
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">IEEE Transactions on Parallel and Distributed Systems</span>
+         · 
+        <span class="citation-date">13 Dec 2023</span>
+        <!--
+        &nbsp;·&nbsp;
+        <span class="citation-id">[no id info]</span>
+        -->
+      </div>
+
+      
+        
+          <div class="citation-description">
+            Busy-wait synchronization is often used for latency-critical applications to ensure low latency. Unfortunately, its performance bugs due to thread contention may lead to request failures or even system crashes. Localizing the performance bugs of busy-wait synchronization is not trivial because we have to pinpoint the exact moment of occurrence from a relatively long measurement period and simultaneously identify candidate busy-wait threads from numerous concurrent threads. Existing methods often rely on hotspot-driven analysis of lock-related functions, but they still need extensive manual work to localize busy-wait threads. This paper proposes timing call stack analysis (TCSA), an efficient approach to localizing busy-wait synchronization bugs. The key idea is to time-serialize the function call stacks of applications and identify consecutive identical call stacks to catch busy-wait threads. TCSA can handle any application regardless of its programming language and identify various busy-wait patterns, including spinlocks, chaining spinlocks, futexes, and safepoint checks within the Java Virtual Machine. Compared to the state-of-the-art, TCSA can effectively diminish the quantity of examined records (e.g., threads and functions) by 1 to 3 orders of magnitude. TCSA has been deployed to a large cloud service provider, demonstrating its effectiveness, efficiency, and practicality in four real latency-critical applications.
+
+          </div>
+        
+
+        
+          <div class="citation-buttons">
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://ieeexplore.ieee.org/document/10356837" data-tooltip="Website" data-style="bare" aria-label="Website">
+      <i class="icon fa-solid fa-globe"></i>
+      
+        <span>Website</span>
+      
+    </a>
+  </div>
+
+
+            
+              
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://jihulab.com/solecnu/tcsa" data-tooltip="Source code" data-style="bare" aria-label="Source code">
+      <i class="icon fa-solid fa-code"></i>
+      
+        <span>Source</span>
+      
+    </a>
+  </div>
+
+
+            
+          </div>
+        
+
+        
+          
+
+
+  <div class="tags" data-link="https://solecnugit.github.io/publications/">
+    
+      <a href="https://solecnugit.github.io/publications/?search=%22tag:%20busy-wait%20synchronization%22" class="tag" data-tooltip='Show items with the tag "busy-wait synchronization"'>
+        busy-wait synchronization
+      </a>
+    
+      <a href="https://solecnugit.github.io/publications/?search=%22tag:%20latency-critical%20applications%22" class="tag" data-tooltip='Show items with the tag "latency-critical applications"'>
+        latency-critical applications
+      </a>
+    
+      <a href="https://solecnugit.github.io/publications/?search=%22tag:%20performance%20bug%20localization%22" class="tag" data-tooltip='Show items with the tag "performance bug localization"'>
+        performance bug localization
+      </a>
+    
+      <a href="https://solecnugit.github.io/publications/?search=%22tag:%20timing%20call%20stack%20analysis%22" class="tag" data-tooltip='Show items with the tag "timing call stack analysis"'>
+        timing call stack analysis
+      </a>
+    
+  </div>
+
+
+        
+      
+    </div>
+  </div>
+</div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h2 id="研究成果列表">研究成果列表</h2>
+
 <div class="search-box">
   <input type="text" class="search-input" oninput="onSearchInput(this)" placeholder="Search items on this page">
   <button disabled data-tooltip="Clear search" aria-label="clear search" onclick="onSearchClear()">
@@ -485,310 +718,72 @@
   </button>
 </div>
 
-<div class="tags" data-link="https://solecnugit.github.io/blog/">
-    
-      <a href="https://solecnugit.github.io/blog/?search=%22tag:%20biology%22" class="tag" data-tooltip='Show items with the tag "biology"'>
-        biology
-      </a>
-    
-      <a href="https://solecnugit.github.io/blog/?search=%22tag:%20medicine%22" class="tag" data-tooltip='Show items with the tag "medicine"'>
-        medicine
-      </a>
-    
-      <a href="https://solecnugit.github.io/blog/?search=%22tag:%20big%20data%22" class="tag" data-tooltip='Show items with the tag "big data"'>
-        big data
-      </a>
-    
-      <a href="https://solecnugit.github.io/blog/?search=%22tag:%20paper%20accepted%22" class="tag" data-tooltip='Show items with the tag "paper accepted"'>
-        paper accepted
-      </a>
-    
-  </div>
-
 <div class="search-info"></div>
+
+<h3 id="2024">2024</h3>
+
+<div class="citation-container">
+  <div class="citation">
+    
+
+    <div class="citation-text">
+      
+      <i class="icon fa-solid fa-scroll"></i>
+
+      <a href="https://dl.acm.org/doi/10.1145/3629525" class="citation-title">
+        Efficient Cross-platform Multiplexing of Hardware Performance Counters via Adaptive Grouping
+      </a>
+
+      <div class="citation-authors" tabindex="0">
+        Tong-Yu Liu, Jianmei Guo, Bo Huang
+
+      </div>
+
+      <div class="citation-details">
+        <span class="citation-publisher">ACM Transactions on Architecture and Code Optimization</span>
+         · 
+        <span class="citation-date">19 Jan 2024</span>
+        <!--
+        &nbsp;·&nbsp;
+        <span class="citation-id">[no id info]</span>
+        -->
+      </div>
+
+      
+    </div>
+  </div>
+</div>
 
 <h3 id="2023">2023</h3>
 
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
-    
-    
+<div class="citation-container">
+  <div class="citation">
     
 
-    
+    <div class="citation-text">
+      
+      <i class="icon fa-solid fa-scroll"></i>
 
-    <div class="post-excerpt-text">
-      <a href="/2023/12/04/TCSA-accepted.html">论文被 IEEE TPDS 接收</a>
-
-      <div class="post-info">
-  
-    
-    
-      <span data-tooltip="Author">
-        <i class="icon fa-solid fa-feather-pointed"></i>
-        <span>郭健美</span>
-      </span>
-    
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>December 04, 2023</span>
-    </span>
-  
-
-  <!--
-  
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>April 08, 2024</span>
-    </span>
-  
-  -->
-</div>
-
-
-  
-
-
-  <div class="tags" data-link="https://solecnugit.github.io/blog">
-    
-      <a href="https://solecnugit.github.io/blog?search=%22tag:%20paper%20accepted%22" class="tag" data-tooltip='Show items with the tag "paper accepted"'>
-        paper accepted
+      <a href="https://ieeexplore.ieee.org/document/10356837" class="citation-title">
+        TCSA: Efficient Localization of Busy-Wait Synchronization Bugs for Latency-Critical Applications
       </a>
-    
-  </div>
 
+      <div class="citation-authors" tabindex="0">
+        Ning Li, Jianmei Guo, Bo Huang, Yuyang Li, Yilei Zhang, Chengdong Li, Wenxin Huang
 
+      </div>
 
-
-
-      
-      
-      <p data-search="实验室论文 TCSA  Efficient Localization of Busy Wait Synchronization Bugs for Latency Critical Applications 被 IEEE Transactions on Parallel and Distributed Systems 接收 该工作提出了一套时序化调用栈分析方法 快速定位高并发系统中同步锁竞争造成的性能故障 IEEE TPDS 是 CCF 推荐 A 类国际学术期刊 该工作的第一作者是 SOLE 博士研究生李宁 通讯作者为郭健美教授 相关工具 TCSA 已经开源 欢迎大家使用   原文链接  开源工具">
-        实验室论文 TCSA: Efficient Localization of Busy-Wait Synchronization Bugs for Latency-Critical Applications 被 IEEE Transactions on Parallel and Distributed Systems 接收！
-
-      </p>
-    </div>
-  </div>
-</div>
-
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
-    
-    
-    
-
-    
-      <a href="/2023/02/23/example-post-3.html" class="post-excerpt-image" aria-label="Example post 3">
-        <img src="/images/photo.jpg" alt="Example post 3" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="post-excerpt-text">
-      <a href="/2023/02/23/example-post-3.html">Example post 3</a>
-
-      <div class="post-info">
-  
-    
-    
-      <span data-tooltip="Author">
-        <i class="icon fa-solid fa-feather-pointed"></i>
-        <span>john-doe</span>
-      </span>
-    
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>February 23, 2023</span>
-    </span>
-  
-
-  <!--
-  
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>April 08, 2024</span>
-    </span>
-  
-  -->
-</div>
-
-
-  
-
-
-  <div class="tags" data-link="https://solecnugit.github.io/blog">
-    
-      <a href="https://solecnugit.github.io/blog?search=%22tag:%20biology%22" class="tag" data-tooltip='Show items with the tag "biology"'>
-        biology
-      </a>
-    
-      <a href="https://solecnugit.github.io/blog?search=%22tag:%20medicine%22" class="tag" data-tooltip='Show items with the tag "medicine"'>
-        medicine
-      </a>
-    
-  </div>
-
-
-
-
+      <div class="citation-details">
+        <span class="citation-publisher">IEEE Transactions on Parallel and Distributed Systems</span>
+         · 
+        <span class="citation-date">13 Dec 2023</span>
+        <!--
+        &nbsp;·&nbsp;
+        <span class="citation-id">[no id info]</span>
+        -->
+      </div>
 
       
-      
-      <p data-search="Lorem ipsum dolor sit amet  consectetur adipiscing elit  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-      </p>
-    </div>
-  </div>
-</div>
-
-<h3 id="2021">2021</h3>
-
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
-    
-    
-    
-
-    
-
-    <div class="post-excerpt-text">
-      <a href="/2021/09/30/example-post-2.html">Example post 2</a>
-
-      <div class="post-info">
-  
-    
-    
-      <span data-tooltip="Author">
-        <i class="icon fa-solid fa-feather-pointed"></i>
-        <span>jane-smith</span>
-      </span>
-    
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>September 30, 2021</span>
-    </span>
-  
-
-  <!--
-  
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>April 08, 2024</span>
-    </span>
-  
-  -->
-</div>
-
-
-  
-
-
-
-
-
-
-      
-      
-      <p data-search="Lorem ipsum dolor sit amet  consectetur adipiscing elit  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-      </p>
-    </div>
-  </div>
-</div>
-
-<h3 id="2019">2019</h3>
-
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
-    
-    
-    
-
-    
-
-    <div class="post-excerpt-text">
-      <a href="/2019/01/07/example-post-1.html">Example post 1</a>
-
-      <div class="post-info">
-  
-    
-    
-      <span data-tooltip="Author">
-        <i class="icon fa-solid fa-feather-pointed"></i>
-        <span>sarah-johnson</span>
-      </span>
-    
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>January 07, 2019</span>
-    </span>
-  
-
-  <!--
-  
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>April 08, 2024</span>
-    </span>
-  
-  -->
-</div>
-
-
-  
-
-
-  <div class="tags" data-link="https://solecnugit.github.io/blog">
-    
-      <a href="https://solecnugit.github.io/blog?search=%22tag:%20biology%22" class="tag" data-tooltip='Show items with the tag "biology"'>
-        biology
-      </a>
-    
-      <a href="https://solecnugit.github.io/blog?search=%22tag:%20medicine%22" class="tag" data-tooltip='Show items with the tag "medicine"'>
-        medicine
-      </a>
-    
-      <a href="https://solecnugit.github.io/blog?search=%22tag:%20big%20data%22" class="tag" data-tooltip='Show items with the tag "big data"'>
-        big data
-      </a>
-    
-  </div>
-
-
-
-
-
-      
-      
-      <p data-search="Lorem ipsum dolor sit amet  consectetur adipiscing elit  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-      </p>
     </div>
   </div>
 </div>
