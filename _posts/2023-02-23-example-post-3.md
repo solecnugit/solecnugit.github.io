@@ -1,6 +1,6 @@
 ---
 title: Example post 3
-image: images/photo.jpg
+image: images/photo.svg
 author: john-doe
 tags: biology, medicine
 ---
