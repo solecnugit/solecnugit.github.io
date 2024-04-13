@@ -1,5 +1,5 @@
 ---
-title: projects
+title: Projects
 nav:
   order: 3
   tooltip: Open source tools, and more

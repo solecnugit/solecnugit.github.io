@@ -1,11 +1,11 @@
 ---
-title: team
+title: Team
 nav:
   order: 2
   tooltip: About our team members
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}TEAM
+# {% include icon.html icon="fa-solid fa-users" %}Team
 
 SOLE is made up of a highly engaged and collaborative team of researchers interested in system optimization.
 The team includes advisors, PhD students, master students and undergraduate students. 
