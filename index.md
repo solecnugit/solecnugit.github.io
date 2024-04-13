@@ -3,8 +3,7 @@
 
 # About SOLE
 
-**S**ystem **O**ptimization **L**ab @ **E**ast China Normal University, abbreviated as **SOLE**, relies on [School of Data Science and Engineering](https://dase.ecnu.edu.cn/) of [ECNU](https://www.ecnu.edu.cn/) and founded in 2021. 
-We are focusing on system optimization researches. 
+**S**ystem **O**ptimization **L**ab @ **E**ast China Normal University (华东师范大学系统优化实验室 in Chinese), abbreviated as **SOLE**, relies on [School of Data Science and Engineering](https://dase.ecnu.edu.cn/) of [ECNU](https://www.ecnu.edu.cn/) and founded in 2021. 
 
 {% include section.html %}
 
