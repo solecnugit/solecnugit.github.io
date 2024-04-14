@@ -7,7 +7,7 @@
   publisher: ACM Transactions on Architecture and Code Optimization
   description: Collecting sufficient microarchitecture performance data is essential for performance evaluation and workload characterization. There are many events to be monitored in a modern processor while only a few hardware performance monitoring counters (PMCs) can be used, so multiplexing is commonly adopted. However, inefficiency commonly exists in state-of-the-art profiling tools when grouping events for multiplexing PMCs. It has the risk of inaccurate measurement and misleading analysis. Commercial tools can leverage PMCs, but they are closed source and only support their specified platforms. To this end, we propose an approach for efficient cross-platform microarchitecture performance measurement via adaptive grouping, aiming to improve the metrics’ sampling ratios. The approach generates event groups based on the number of available PMCs detected on arbitrary machines while avoiding the scheduling pitfall of Linux perf_event subsystem. We evaluate our approach with SPEC CPU 2017 on four mainstream x86-64 and AArch64 processors and conduct comparative analyses of efficiency with two other state-of-the-art tools, LIKWID and ARM Top-down Tool. The experimental results indicate that our approach gains around 50% improvement in the average sampling ratio of metrics without compromising the correctness and reliability.
   date: 2024-1-19
-  image: https://dl.acm.org/cms/asset/bbbdb988-4ba9-42b3-b749-a7c78fe53a98/taco-2023-84-f01.jpg
+  image: images/publications/AdaptiveGrouping.jpg
   buttons:
     - type: website
       link: https://dl.acm.org/doi/10.1145/3629525
@@ -32,7 +32,7 @@
   publisher: IEEE Transactions on Parallel and Distributed Systems
   description: Busy-wait synchronization is often used for latency-critical applications to ensure low latency. Unfortunately, its performance bugs due to thread contention may lead to request failures or even system crashes. Localizing the performance bugs of busy-wait synchronization is not trivial because we have to pinpoint the exact moment of occurrence from a relatively long measurement period and simultaneously identify candidate busy-wait threads from numerous concurrent threads. Existing methods often rely on hotspot-driven analysis of lock-related functions, but they still need extensive manual work to localize busy-wait threads. This paper proposes timing call stack analysis (TCSA), an efficient approach to localizing busy-wait synchronization bugs. The key idea is to time-serialize the function call stacks of applications and identify consecutive identical call stacks to catch busy-wait threads. TCSA can handle any application regardless of its programming language and identify various busy-wait patterns, including spinlocks, chaining spinlocks, futexes, and safepoint checks within the Java Virtual Machine. Compared to the state-of-the-art, TCSA can effectively diminish the quantity of examined records (e.g., threads and functions) by 1 to 3 orders of magnitude. TCSA has been deployed to a large cloud service provider, demonstrating its effectiveness, efficiency, and practicality in four real latency-critical applications.
   date: 2023-12-13
-  image: https://img2.imgtp.com/2024/04/05/BVvl8hcF.jpg
+  image: images/publications/TCSA.jpg
   buttons:
     - type: website
       link: https://ieeexplore.ieee.org/document/10356837
