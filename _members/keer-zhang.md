@@ -1,6 +1,6 @@
 ---
 name: Ke-er Zhang
-image: images/photo.svg
+image: images/members/photo.svg
 role: masterstu
 grade: 2022
 description: 

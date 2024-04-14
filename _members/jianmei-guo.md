@@ -1,6 +1,6 @@
 ---
 name: Jianmei Guo
-image: images/photo.svg
+image: images/members/jianmei-guo.jpg
 role: teacher
 grade: 2021
 description: Professor

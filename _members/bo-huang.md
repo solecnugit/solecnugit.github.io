@@ -1,6 +1,6 @@
 ---
 name: Bo Huang
-image: images/photo.svg
+image: images/members/bo-huang.jpg
 role: teacher
 grade: 2021
 description: Distinguished Professor

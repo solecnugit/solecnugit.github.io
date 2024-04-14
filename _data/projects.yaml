@@ -1,14 +1,14 @@
 - title: hperf
   subtitle: A cross-platform microarchitectural performance measurement tool
   group: featured
-  image: images/project/hperf.png
+  image: images/projects/hperf.png
   link: https://jihulab.com/solecnu/hperf
   description: Efficient measuerment to provide reliable data for workload characterization and bottleneck identification. 
 
 - title: Cool Dataset
   subtitle: a subtitle
   group: featured
-  image: images/project/default.png
+  image: images/projects/default.png
   link: https://github.com/
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
   repo: greenelab/lab-website-template
@@ -16,20 +16,20 @@
 - title: Cool Tutorial
   subtitle: a subtitle
   group: normal
-  image: images/project/default.png
+  image: images/projects/default.png
   link: https://github.com/
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 - title: Cool Web App
   subtitle: a subtitle
   group: normal
-  image: images/project/default.png
+  image: images/projects/default.png
   link: https://github.com/
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
 - title: Cool Web Server
   subtitle: a subtitle
   group: normal
-  image: images/project/default.png
+  image: images/projects/default.png
   link: https://github.com/
   description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

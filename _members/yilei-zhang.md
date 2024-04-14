@@ -1,6 +1,6 @@
 ---
 name: Yilei Zhang
-image: images/photo.svg
+image: images/members/photo.svg
 role: phdstu
 grade: 2021
 description: 

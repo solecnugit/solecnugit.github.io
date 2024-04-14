@@ -1,6 +1,6 @@
 ---
 name: Yuexi Zou
-image: images/photo.svg
+image: images/members/photo.svg
 role: undergraduatestu
 grade: 2020
 description: 

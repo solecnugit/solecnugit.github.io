@@ -26,7 +26,7 @@
     \ results indicate that our approach gains around 50% improvement in the average\
     \ sampling ratio of metrics without compromising the correctness and reliability."
   date: '2024-01-19'
-  image: https://dl.acm.org/cms/asset/bbbdb988-4ba9-42b3-b749-a7c78fe53a98/taco-2023-84-f01.jpg
+  image: images/publications/AdaptiveGrouping.jpg
   buttons:
   - type: website
     link: https://dl.acm.org/doi/10.1145/3629525
@@ -70,7 +70,7 @@
     to a large cloud service provider, demonstrating its effectiveness, efficiency,
     and practicality in four real latency-critical applications.
   date: '2023-12-13'
-  image: https://img2.imgtp.com/2024/04/05/BVvl8hcF.jpg
+  image: images/publications/TSCA.jpg
   buttons:
   - type: website
     link: https://ieeexplore.ieee.org/document/10356837

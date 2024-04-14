@@ -1,6 +1,6 @@
 ---
 name: Ning Li
-image: images/photo.svg
+image: images/members/photo.svg
 role: phdstu
 grade: 2021
 description: 
