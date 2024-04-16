@@ -13,7 +13,7 @@ SOLE is dedicated to researching performance optimization techniques at all leve
 
 {%
   include button.html
-  link="research"
+  link="publications"
   text="See what we've published"
   icon="fa-solid fa-arrow-right"
   flip=true
@@ -25,7 +25,7 @@ SOLE is dedicated to researching performance optimization techniques at all leve
 {%
   include feature.html
   image="./images/ImageResearch.jpg"
-  link="research"
+  link="publications"
   title="Co-optimization of hardware and software"
   text=text
 %}
