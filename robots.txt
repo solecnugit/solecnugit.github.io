@@ -1,1 +1,1 @@
-Sitemap: http://solelab.tech/sitemap.xml
+Sitemap: https://solelab.tech/sitemap.xml
