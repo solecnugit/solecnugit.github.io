@@ -3,7 +3,7 @@ name: Bo Huang
 image: images/members/bo-huang.jpg
 role: teacher
 grade: 2021
-description: Distinguished Professor
+description: Professor
 links:
   home-page: https://faculty.ecnu.edu.cn/_s37/hb2/main.psp
   email: bhuang@dase.ecnu.edu.cn
