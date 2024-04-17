@@ -2,7 +2,7 @@
 name: Yilei Zhang
 image: images/members/photo.svg
 role: phdstu
-grade: 2021
+grade: 2019
 description: 
 links:
   email: ylzhang@stu.ecnu.edu.cn

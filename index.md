@@ -59,7 +59,7 @@ We develop various open sources tool closely related to the industry.
 
 {% capture text %}
 
-SOLERs is a team of enthusiastic researchers that are interested in system optimization. 
+SOLERs are a team of enthusiastic researchers that are interested in system optimization. 
 Each member focus on his or her own research topic and participating in different projects.
 
 {%
