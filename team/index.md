@@ -1,34 +1,38 @@
 ---
-title: 成员
+title: Team
 nav:
-  order: 3
-  tooltip: 实验室成员信息 
+  order: 2
+  tooltip: About our team members
 ---
 
-# {% include icon.html icon="fa-solid fa-users" %}成员
+# {% include icon.html icon="fa-solid fa-users" %}Team
+
+SOLE is made up of a highly engaged and collaborative team of researchers interested in system optimization.
+The team includes advisors, PhD students, master students and undergraduate students. 
+We foster an environment where team members are treated equally, and where we respect and admire our differences.
 
 <!-- 会显示团队成员列表，成员信息登记在 _members 内 -->
 
 {% include section.html %}
 
-### 导师
+### Advisors
 
-{% include list.html data="members" component="portrait" filters="role: teacher, name: 黄波" %}
-{% include list.html data="members" component="portrait" filters="role: teacher, name: 郭健美" %}
+{% include list.html data="members" component="portrait" filters="role: teacher, name: Bo Huang" style="small" %}
+{% include list.html data="members" component="portrait" filters="role: teacher, name: Jianmei Guo" style="small" %}
 
-### 博士研究生
+### PhD Students
 
 {% include list.html data="members" component="portrait" filters="role: phdstu" style="small" %}
 
-### 硕士研究生
+### Master Students
 
 {% include list.html data="members" component="portrait" filters="role: masterstu" style="small" %}
 
-### 本科生
+### Undergraduate Students
 
 {% include list.html data="members" component="portrait" filters="role: undergraduatestu" style="small" %}
 
-### 校友
+### Alumni
 
 {% include list.html data="members" component="portrait" filters="role: alumni" style="small" %}
 

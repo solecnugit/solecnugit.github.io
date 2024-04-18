@@ -1,8 +1,9 @@
 ---
-name: 牟文龙
-image: images/photo.jpg
+name: Wenlong Mu
+image: images/members/photo.svg
 role: masterstu
-description: 2021 级
+grade: 2021
+description: 
 links:
   email: wlmu@stu.ecnu.edu.cn
 ---

@@ -17,13 +17,16 @@
     {% endif %}
   >
     {% for tag in tags %}
-      <a
+      <spans class="tag">
+        {{ tag }}
+      </spans>
+      <!-- <a
         href="{{ link }}?search=&quot;tag: {{ tag }}&quot;"
         class="tag"
         data-tooltip="Show items with the tag &quot;{{ tag }}&quot;"
       >
         {{ tag }}
-      </a>
+      </a> -->
     {% endfor %}
   </div>
 {% endif %}

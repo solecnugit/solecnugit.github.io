@@ -1,8 +1,9 @@
 ---
-name: 章可儿
-image: images/photo.jpg
+name: Ke-er Zhang
+image: images/members/photo.svg
 role: masterstu
-description: 2022 级
+grade: 2022
+description: 
 links:
   email: 19966422680@163.com
 ---

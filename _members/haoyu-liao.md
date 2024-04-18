@@ -1,10 +1,11 @@
 ---
-name: 廖浩宇
-image: images/photo.jpg
+name: Haoyu Liao
+image: images/members/photo.svg
 role: masterstu
-description: 2022 级
+grade: 2022
+description: 
 links:
   email: hyliao@stu.ecnu.edu.cn
 ---
 
-廖浩宇，男，四川乐山人。
+廖浩宇，男，四川人。

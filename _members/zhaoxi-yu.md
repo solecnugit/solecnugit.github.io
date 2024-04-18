@@ -1,8 +1,9 @@
 ---
-name: 于兆熙
-image: images/photo.jpg
+name: Zhaoxi Yu
+image: images/members/photo.svg
 role: masterstu
-description: 2021 级
+grade: 2021
+description: 
 links:
   email: 51215903031@stu.ecnu.edu.cn
 ---

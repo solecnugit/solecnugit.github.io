@@ -1,8 +1,8 @@
 ---
-title: 加入我们
-nav:
-  order: 5
-  tooltip: 招生信息
+title: contact
+# nav:
+#   order: 5
+#   tooltip: Join us
 ---
 
 # {% include icon.html icon="fa-regular fa-envelope" %}加入我们

@@ -1,8 +1,9 @@
 ---
-name: 汤越
-image: images/photo.jpg
+name: Yue Tang
+image: images/members/photo.svg
 role: undergraduatestu
-description: 2020 级
+grade: 2020
+description: 
 links:
   email: yuetang@stu.ecnu.edu.cn
 ---

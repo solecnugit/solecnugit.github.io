@@ -1,8 +1,9 @@
 ---
-name: 力宇阳
-image: images/photo.jpg
+name: Yuyang Li
+image: images/members/photo.svg
 role: masterstu
-description: 2021 级
+grade: 2021
+description: 
 links:
   email: yuyangli@stu.ecnu.edu.cn
 ---

@@ -1,8 +1,9 @@
 ---
-name: 杨佳宁
-image: images/photo.jpg
+name: Jia-ning Yang
+image: images/members/photo.svg
 role: masterstu
-description: 2023 级
+grade: 2023
+description: 
 links:
   email: 1076819326@qq.com
 ---
