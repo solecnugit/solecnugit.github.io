@@ -1,6 +1,6 @@
 ---
 name: Yuyang Li
-image: images/members/photo.svg
+image: images/members/yuyang-li.jpg
 role: masterstu
 grade: 2021
 description: 
@@ -8,4 +8,4 @@ links:
   email: yuyangli@stu.ecnu.edu.cn
 ---
 
-力宇阳，男，山西太原人。
+YuYang Li is pursuing a graduate degree from the School of Data Science and Engineering, East China Normal University, Shanghai, China. His research interests include performance evaluation and analysis.
