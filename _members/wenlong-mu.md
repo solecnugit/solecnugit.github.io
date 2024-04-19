@@ -1,11 +1,11 @@
 ---
 name: Wenlong Mu
-image: images/members/photo.svg
+image: images/members/wenlong-mu.jpg
 role: masterstu
 grade: 2021
 description: 
 links:
-  email: wlmu@stu.ecnu.edu.cn
+  email: wenlongmu@stu.ecnu.edu.cn
 ---
 
-牟文龙，男，黑龙江哈尔滨人。
+Wenlong Mu is a master's student in the SOLE Laboratory, class of 2021. His primary research interests include dynamic binary instrumentation, post-linking program optimization, and online code replacement. He is familiar with a part of source code in BOLT and DynamoRIO, and he has an understanding of using Intel PIN tool and DynamoRIO client, as well as perf and LLVM compilers.
