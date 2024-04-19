@@ -45,7 +45,7 @@
     - timing call stack analysis
   link: https://ieeexplore.ieee.org/document/10356837
 
-- title: Hmem: A Holistic Memory Performance Metric for Cloud Computing
+- title: "Hmem: A Holistic Memory Performance Metric for Cloud Computing"
   authors:
     - Yuyang Li
     - Ning Li
@@ -70,7 +70,7 @@
     - performance evaluation
   link: https://link.springer.com/chapter/10.1007/978-981-97-0316-6_11
 
-- title: A Hotspot-Driven Semi-automated Competitive Analysis Framework for Identifying Compiler Key Optimizations
+- title: "A Hotspot-Driven Semi-automated Competitive Analysis Framework for Identifying Compiler Key Optimizations"
   authors:
     - Wenlong Mu
     - Yilei Zhang
