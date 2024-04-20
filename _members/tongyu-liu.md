@@ -1,6 +1,6 @@
 ---
 name: Tong-yu Liu
-image: images/members/photo.svg
+image: images/members/tongyu-liu.jpg
 role: masterstu
 grade: 2021
 description: 
