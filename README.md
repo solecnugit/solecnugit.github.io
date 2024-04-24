@@ -69,6 +69,29 @@ links:
 
 同上，该文件包含多条记录，请仿照已有的记录往后继续添加，项目插图请放在 `images/projects/` 目录内
 
+相关字段说明：
+
+```
+- title: hperf
+  subtitle: A cross-platform microarchitectural performance measurement tool
+  group: featured
+  image: images/projects/hperf.png
+  link: https://github.com/solecnugit/hperf.git
+  # description: Efficient measuerment to provide reliable data for workload characterization and bottleneck identification. 
+```
+
+`subtitle` 属性：项目副标题，会以斜体显示在项目标题下方，请用一句话描述该项目
+
+> 注意：项目副标题请控制单词数量，尽量在 15 个单词以内，保证能够在 4 行内显示
+
+`group` 属性：`featured` 和 `normal` 二选一，分别会列在 featured 与 more 栏目下，如果已经有公开的开源仓库，应当设置为 `featured`
+
+`description` 属性：项目描述，通常不需要，会以正体显示在项目副标题下面
+
+`link` 属性：代码仓库链接
+
+> 注意：公开的开源代码仓库应当是在 Github 的 solecnugit 组织下的代码仓库，在登记前请完成代码仓库所有权的转移
+
 ### 实验室新闻
 
 包括论文被录用，实验室团建，外出参会演讲等动态。
