@@ -105,14 +105,13 @@
     This dilemma is further exacerbated under different memory access patterns. We
     recognize that state-of-the-art memory performance metrics cannot well address
     the dilemma. To address this challenge, we define a holistic memory performance
-    metric, named \textit{Hmem}, which is calculated from a fusion of bandwidth and
-    latency metrics across different access patterns. To reflect the overall performance
-    of a given workload, we calculate the correlation between our proposed metric
-    and the workload's throughput. Experimental results show that Hmem exhibits an
-    average improvement of 70% on correlation coefficients compared to state-of-the-art
-    memory performance metrics. A large cloud service provider has adopted Hmem to
-    improve the efficiency of their memory performance evaluation and cloud server
-    selection.
+    metric, named *Hmem*, which is calculated from a fusion of bandwidth and latency
+    metrics across different access patterns. To reflect the overall performance of
+    a given workload, we calculate the correlation between our proposed metric and
+    the workload's throughput. Experimental results show that Hmem exhibits an average
+    improvement of 70% on correlation coefficients compared to state-of-the-art memory
+    performance metrics. A large cloud service provider has adopted Hmem to improve
+    the efficiency of their memory performance evaluation and cloud server selection.
   date: '2024-02-14'
   image: images/publications/Hmem.jpg
   buttons:
