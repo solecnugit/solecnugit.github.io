@@ -1,5 +1,48 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- title: 'EFACT: An External Function Auto-Completion Tool to strengthen static binary
+    lifting'
+  authors:
+  - Yilei Zhang
+  - Haoyu Liao
+  - Zekun Wang
+  - Bo Huang
+  - Jianmei Guo
+  type: paper
+  publisher: Journal of Systems and Software
+  description: Static binary lifting is essential in binary rewriting frameworks.
+    Existing tools overlook the impact of External Function Completion (EXFC) in static
+    binary lifting. EXFC recovers the declarations of External Functions (EXFs, functions
+    defined in standard shared libraries) using only the function symbols available.
+    Incorrect EXFC can misinterpret the source binary, or cause memory overflows in
+    static binary translation, which eventually results in program crashes. Notably,
+    existing tools struggle to recover the declarations of mangled EXFs originating
+    from binaries compiled from C++. Moreover, they require time-consuming manual
+    processing to support new libraries. This paper presents EFACT, an External Function
+    Auto-Completion Tool for static binary lifting. Our EXF recovery algorithm better
+    recovers the declarations of mangled EXFs, particularly addressing the template
+    specialization mechanism in C++. EFACT is designed as a lightweight plugin to
+    strengthen other static binary rewriting frameworks in EXFC. Our evaluation shows
+    that EFACT outperforms RetDec and McSema in mangled EXF recovery by 96.4% and
+    97.3% on SPECrate 2017.Furthermore, we delve deeper into static binary translation
+    and address several cross-ISA EXFC problems. When integrated with McSema, EFACT
+    correctly translates 36.7% more benchmarks from x86-64 to x86-64 and 93.6% more
+    from x86-64 to AArch64 than McSema alone on EEMBC.
+  date: '2024-05-11'
+  image: images/publications/EFACT.jpg
+  buttons:
+  - type: website
+    link: https://www.sciencedirect.com/science/article/pii/S0164121224001377
+  - type: source
+    link: https://github.com/solecnugit/EFACT
+  tags:
+  - External function completion
+  - Binary lifting
+  - Static binary translation
+  - Reverse engineering
+  link: https://www.sciencedirect.com/science/article/pii/S0164121224001377
+  plugin: sources.py
+  file: sources.yaml
 - title: Efficient Cross-platform Multiplexing of Hardware Performance Counters via
     Adaptive Grouping
   authors:
