@@ -1,3 +1,9 @@
+- title: EFACT
+  subtitle: An External Function Auto-Completion Tool to strengthen static binary lifting
+  group: featured
+  image: images/projects/EFACT.jpg
+  link: https://github.com/solecnugit/EFACT
+
 - title: hperf
   subtitle: A cross-platform microarchitectural performance measurement tool
   group: featured
