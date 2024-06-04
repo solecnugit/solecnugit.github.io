@@ -1,11 +1,12 @@
 ---
 name: Yuexi Zou
-image: images/members/photo.svg
+image: images/members/yuexi-zou.jpg
 role: undergraduatestu
 grade: 2020
 description: 
 links:
-  email: yuexi@stu.ecnu.edu.cn
+  email: carolineyxz@gmail.com
 ---
 
-邹越溪，女，上海人。
+Yuexi Zou is currently a senior undergraduate student in the School of Data Science and Engineering at East China Normal University and will be a Ph.D. student at SOLE Lab in September 2024.
+
