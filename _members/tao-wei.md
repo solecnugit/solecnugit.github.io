@@ -1,6 +1,6 @@
 ---
 name: Tao Wei
-image: images/members/photo.svg
+image: images/members/tao-wei.jpg
 role: masterstu
 grade: 2022
 description: 
@@ -8,4 +8,5 @@ links:
   email: w1136862851@qq.com
 ---
 
-卫涛，男，浙江杭州人。
+Tao Wei is working towards on the MS degree in the School of Data Science and Engineering, East China Normal University, Shanghai, China.
+His research interests include AI compiles and DNN model inference spped up.
