@@ -1,6 +1,6 @@
 ---
 name: Jinrui Shi
-image: images/members/photo.svg
+image: images/members/Jinrui-Shi.png
 role: masterstu
 grade: 2023
 description: 
@@ -8,4 +8,4 @@ links:
   email: 1379998393@qq.com
 ---
 
-施瑾睿，男，湖南常德人。
+Jinrui Shi is pursuing a graduate degree from the School of Data Science and Engineering, East China Normal University, Shanghai, China. His research direction is ORC JIT related, mainly focusing on the LLVM compilers.
