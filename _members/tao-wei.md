@@ -1,6 +1,6 @@
 ---
 name: Tao Wei
-image: images/members/photo.svg
+image: images/members/tao-wei.jpg
 role: masterstu
 grade: 2022
 description: 
