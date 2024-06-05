@@ -1,6 +1,6 @@
 ---
 name: Zhijie Xu
-image: images/members/photo.svg
+image: images/members/zhijie-xu.jpg
 role: masterstu
 grade: 2022
 description: 
