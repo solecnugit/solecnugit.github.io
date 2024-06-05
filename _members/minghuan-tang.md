@@ -8,4 +8,5 @@ links:
   email: 51265903070@stu.ecnu.edu.cn
 ---
 
-山东临沂人
+
+Tang Minghuan is currently pursuing a Master's degree in the School of Data Science and Engineering at East China Normal University.His research interests include Nvidia-GPU profiling .
