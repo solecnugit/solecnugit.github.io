@@ -1,6 +1,6 @@
 ---
 name: Ke-er Zhang
-image: images/members/photo.svg
+image: images/members/keer-zhang.jpg
 role: masterstu
 grade: 2022
 description: 
@@ -8,4 +8,4 @@ links:
   email: 19966422680@163.com
 ---
 
-章可儿，女，安徽安庆人。
+章可儿，女，安徽铜陵人。
