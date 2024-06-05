@@ -1,6 +1,6 @@
 ---
 name: Zekun Wang
-image: images/members/photo.svg
+image: images/members/zekun-wang.jpg
 role: masterstu
 grade: 2022
 description: 
