@@ -1,11 +1,14 @@
 ---
 name: Yue Tang
-image: images/members/photo.svg
+image: images/members/yue-tang.jpg
 role: undergraduatestu
 grade: 2020
 description: 
 links:
-  email: yuetang@stu.ecnu.edu.cn
+  email: ytang@stu.ecnu.edu.cn
 ---
 
 汤越，男，浙江杭州人。
+研究方向：动态编译
+
+Always shining, always young! Enjoy sunrise, enjoy sunset! Love you and love the world!
