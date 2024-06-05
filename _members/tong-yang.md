@@ -1,6 +1,6 @@
 ---
 name: Tong Yang
-image: images/members/photo.svg
+image: images/members/Tong-Yang.jpg
 role: masterstu
 grade: 2023
 description: 
