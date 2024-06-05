@@ -8,4 +8,4 @@ links:
   email: 1131623843@qq.com
 ---
 
-王泽锟，男，甘肃武威人。
+Zekun Wang is pursuing a graduate degree from the School of Data Science and Engineering, East China Normal University, Shanghai, China. His research interests include sampling and simulation.
