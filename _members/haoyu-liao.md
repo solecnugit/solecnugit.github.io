@@ -1,6 +1,6 @@
 ---
 name: Haoyu Liao
-image: images/members/photo.svg
+image: images/members/haoyu-liao.jpg
 role: masterstu
 grade: 2022
 description: 
@@ -8,4 +8,4 @@ links:
   email: hyliao@stu.ecnu.edu.cn
 ---
 
-廖浩宇，男，四川人。
+He is pursuing a graduate degree from the School of Data Science and Engineering, East China Normal University, Shanghai, China. His research interests include cloud scheduling and performance evaluation/analysis.
