@@ -8,4 +8,4 @@ links:
   email: tyang2001@163.com
 ---
 
-杨桐，男，河北保定人。
+YangTong is working towards on the MS degree in the School of Data Science and Engineering, East China Normal University, Shanghai, China. His research interests include LLM distributed fine-tuning optimization and distributed training resource scheduling.
