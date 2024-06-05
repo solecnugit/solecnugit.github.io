@@ -1,6 +1,6 @@
 ---
 name: Jinrui Shi
-image: images/members/Jinrui-Shi.png
+image: images/members/Jinrui-Shi.jpg
 role: masterstu
 grade: 2023
 description: 
