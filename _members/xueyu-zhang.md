@@ -1,6 +1,6 @@
 ---
 name: Xue-yu Zhang
-image: images/members/xueyu-zhang.jpeg
+image: images/members/xueyu-zhang.jpg
 role: masterstu
 grade: 2021
 description: 
