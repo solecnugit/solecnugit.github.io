@@ -9,4 +9,4 @@ links:
 ---
 
 Tao Wei is working towards on the MS degree in the School of Data Science and Engineering, East China Normal University, Shanghai, China.
-His research interests include AI compiles and DNN model inference spped up.
+His research interests include AI compiles and DNN model inference speed up.
