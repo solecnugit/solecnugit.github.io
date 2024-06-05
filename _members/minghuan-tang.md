@@ -1,6 +1,6 @@
 ---
 name: Minghuan Tang
-image: images/members/photo.svg
+image: images/members/minghuan-tang.jpg
 role: masterstu
 grade: 2023
 description: 
