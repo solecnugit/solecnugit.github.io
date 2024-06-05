@@ -1,6 +1,6 @@
 ---
 name: Di Wu
-image: images/members/photo.svg
+image: images/members/di-wu.jpg
 role: masterstu
 grade: 2022
 description:
