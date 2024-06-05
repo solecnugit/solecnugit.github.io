@@ -20,9 +20,19 @@
   width: 250px;
 }
 
+.card[data-style="big"] {
+  width: 450px;
+}
+
 .card-image img {
   aspect-ratio: 4 / 2;
   object-fit: contain;
+  width: 100%;
+  box-shadow: var(--shadow);
+}
+
+.card-image-cover img {
+  object-fit: cover;
   width: 100%;
   box-shadow: var(--shadow);
 }

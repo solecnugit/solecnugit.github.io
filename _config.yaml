@@ -31,6 +31,11 @@ defaults:
       type: "members"
     values:
       layout: member
+  # markdown files in /_courses
+  - scope:
+      type: "courses"
+    values:
+      layout: course
   # markdown files in /_posts
   - scope:
       type: "posts"
@@ -44,6 +49,8 @@ collections:
     sort_by: grade    # 按这个字段排序，见 https://jekyllrb.com/docs/collections/#custom-sorting-of-documents
   # generate page for each post
   posts:
+    output: true
+  courses:
     output: true
 
 # jekyll plugins
