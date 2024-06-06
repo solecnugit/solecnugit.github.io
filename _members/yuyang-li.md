@@ -11,6 +11,8 @@ YuYang Li is pursuing a graduate degree from the School of Data Science and Engi
 
 After graduation, Yuyang will go to Nanjing Xiaomi to optimize the performance of mobile games.
 
+{% include section.html %}
+
 ## Publications
 
 **Yuyang Li**, Ning Li, Yilei Zhang, Jianmei Guo, Bo Huang, Mengbang Xing, Wenxin Huang: Hmem: A Holistic Memory Performance Metric for Cloud Computing [C]. International Symposium On Benchmarking, Measuring And Optimizing, 2024: 506–522. [Paper Link](https://link.springer.com/chapter/10.1007/978-981-97-0316-6_11)
