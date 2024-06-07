@@ -1,11 +1,11 @@
 ---
 name: Huanlun Cheng
-image: images/members/photo.svg
+image: images/members/Huanlun-Cheng.jpg
 role: masterstu
 grade: 2022
 description: 
 links:
-  email: 51255903112@stu.ecnu.edu.cn
+  email: huaun@stu.ecnu.edu.cn
 ---
 
 程奂仑，男，安徽黄山人。
