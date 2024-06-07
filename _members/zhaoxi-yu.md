@@ -1,6 +1,6 @@
 ---
 name: Zhaoxi Yu
-image: images/members/photo.svg
+image: images/members/zhaoxi-yu.jpg
 role: masterstu
 grade: 2021
 description: 
