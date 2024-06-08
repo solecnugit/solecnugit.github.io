@@ -6,7 +6,8 @@ grade: 2021
 description: 
 links:
   email: tyliu@stu.ecnu.edu.cn
-  ocrid: 0000-0002-7795-4553
+  orcid: 0000-0002-7795-4553
+  github: GraysonLiu23
 ---
 
 Tong-yu Liu is a PhD student of School of Data Science and Engineering, East China Normal University. He was received his master's degree of Engineering (M. Eng.) from East China Normal University in 2021 and the bachelor's degree of Engineering in Nanjing Agricultural University in 2017. 
