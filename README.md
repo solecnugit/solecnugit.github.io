@@ -16,6 +16,8 @@ _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-tem
     - 提交 PR 后，会自动运行构建脚本，可以预览修改结果
 4. 管理员负责审核，PR 审核通过后，修改结果将同步到实验室主页上
 
+> 我们有做缓存，PR 合并后大概需要等待 2 小时候，访问 solelab.tech 才能看到更改
+
 ### 成员信息
 
 在 `_members` 目录下，为实验室每个人创建了一份 markdown 文件，请在此处修改。
@@ -25,29 +27,34 @@ _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-tem
 ```
 ---
 name: Tong-yu Liu
-image: images/members/photo.svg
+image: images/members/tongyu-liu.jpg
 role: masterstu
 grade: 2021
 description: 
 links:
   email: tyliu@stu.ecnu.edu.cn
-  ocrid: 0000-0002-7795-4553
+  orcid: 0000-0002-7795-4553
+  github: GraysonLiu23
 ---
 ```
 
 若需要更新头像，在 `images/members/` 目录下添加一张图片，文件名与 `name` 保持一致，并相应地修改路径。
 
-> 注意：考虑到加载速度，推荐头像大小控制在 512 * 512 以内。
+> 注意：考虑到加载速度，推荐头像分辨率控制在 512 * 512 以内，大小在 40 KiB 以内。此外，由于每个人的头像是圆形的，最好使用宽高比为 1:1 的图片。
 
 `role` 属性：老师 `teacher`，博士研究生 `phdstu`，硕士研究生 `masterstu`，本科生 `undergraduatestu`，校友 `alumni`
 
-`grade` 属性：入学年份
+`grade` 属性：入学年份（此项不会显示在网页上，仅作为排序关键字）
 
 `description` 属性：显示在头像下方的描述文字，老师为其职称，学生则留空白
 
-`links` 属性：支持多种链接，包括 email，ocrid，Google Scholar 等，具体参见：https://greene-lab.gitbook.io/lab-website-template-docs/basics/team-members#add-remove-members 
+> 已经毕业的校友，description 为现在所在的单位
+
+`links` 属性：支持多种链接，包括 email，orcid，github 等，具体参见：https://greene-lab.gitbook.io/lab-website-template-docs/basics/team-members#add-remove-members ，建议添加 email，orcid，github 这三项，其格式参照上方示例。
 
 之后的部分，可以用 Markdown 自行编辑，可以添加个人简历、项目经历、发表论文、参与项目等各类信息。
+
+> 考虑到排版问题，建议个人简介作为 Markdown 的第一个部分，与照片/链接左右排版，接着插入一个 `{% include section.html %}` 另起一个部分，这个部分会占用整个页面宽度，可以参考 _members/tongyu-liu.md。
 
 ### 发表论文
 
@@ -62,6 +69,8 @@ links:
 该文件内包含多条记录，请仿照已有的记录往后继续添加。
 
 其中论文插图，请放在 `images/publications/` 目录内，文件名是论文缩写，并在配置文件中引用。
+
+> 注意：请控制论文插图的大小，建议 40 KiB 以内
 
 ### 项目
 
@@ -82,7 +91,7 @@ links:
 
 `subtitle` 属性：项目副标题，会以斜体显示在项目标题下方，请用一句话描述该项目
 
-> 注意：项目副标题请控制单词数量，尽量在 15 个单词以内，保证能够在 4 行内显示
+> 注意：项目副标题请控制单词数量，尽量在 15 个单词以内，保证能够在 4 行内显示，可能需要手动在单词中插入“-”进行断行。
 
 `group` 属性：`featured` 和 `normal` 二选一，分别会列在 featured 与 more 栏目下，如果已经有公开的开源仓库，应当设置为 `featured`
 
