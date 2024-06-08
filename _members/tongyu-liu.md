@@ -17,9 +17,8 @@ He currently focus on computer architecture and his research interests mainly in
 
 ## Publications
 
-**Tong-yu Liu**, Jianmei Guo, Bo Huang: Efficient Cross-platform Multiplexing of Hardware Performance Counters via Adaptive Grouping. *ACM Trans. Archit. Code Optim.* Vol. 21, No. 1: Article 8, 2024. [View on ACM](https://dl.acm.org/doi/10.1145/3629525)
-
-Jianmei Guo, Bo Huang, **Tong-yu Liu**, Eric Lin, Patrick Zhao: Software System Optimization (in Chinese). *China Machine Press Co., Ltd.* (Expected to be published in 2024)
+- **Tong-yu Liu**, Jianmei Guo, Bo Huang: Efficient Cross-platform Multiplexing of Hardware Performance Counters via Adaptive Grouping. *ACM Trans. Archit. Code Optim.* Vol. 21, No. 1: Article 8, 2024. [View on ACM](https://dl.acm.org/doi/10.1145/3629525)
+- Jianmei Guo, Bo Huang, **Tong-yu Liu**, Eric Lin, Patrick Zhao: Software System Optimization (in Chinese). *China Machine Press Co., Ltd.* (Expected to be published in 2024)
 
 ## Projects
 
