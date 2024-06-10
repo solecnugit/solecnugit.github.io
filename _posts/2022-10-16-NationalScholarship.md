@@ -1,5 +1,5 @@
 ---
-title: SOLERs received scholarships!
+title: SOLERs Received Scholarships!
 author: Admin
 tags:
   - award

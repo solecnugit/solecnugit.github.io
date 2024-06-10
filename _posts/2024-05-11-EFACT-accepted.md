@@ -6,7 +6,7 @@ tags:
 ---
 
 May, 2024. Paper *EFACT: An External Function Auto-Completion Tool to strengthen static binary lifting* was accepted by Journal of Systems and Software. 
-Congratulations to Yilei Zhang. 
+Congratulations to Yilei. 
 
 > [PDF](https://www.sciencedirect.com/science/article/pii/S0164121224001377)
 > 
