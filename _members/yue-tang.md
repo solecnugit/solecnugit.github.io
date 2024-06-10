@@ -1,8 +1,8 @@
 ---
 name: Yue Tang
 image: images/members/yue-tang.jpg
-role: undergraduatestu
-grade: 2020
+role: phdstu
+grade: 2024
 description: 
 links:
   email: ytang@stu.ecnu.edu.cn

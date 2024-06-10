@@ -1,8 +1,8 @@
 ---
 name: Tong-yu Liu
 image: images/members/tongyu-liu.jpg
-role: masterstu
-grade: 2021
+role: phdstu
+grade: 2024
 description: 
 links:
   email: tyliu@stu.ecnu.edu.cn

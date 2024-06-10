@@ -1,8 +1,8 @@
 ---
 name: Yuexi Zou
 image: images/members/yuexi-zou.jpg
-role: undergraduatestu
-grade: 2020
+role: phdstu
+grade: 2024
 description: 
 links:
   email: carolineyxz@gmail.com

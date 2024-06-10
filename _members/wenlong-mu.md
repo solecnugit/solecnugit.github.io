@@ -1,8 +1,8 @@
 ---
 name: Wenlong Mu
 image: images/members/wenlong-mu.jpg
-role: masterstu
-grade: 2021
+role: phdstu
+grade: 2024
 description: 
 links:
   email: wenlongmu@stu.ecnu.edu.cn

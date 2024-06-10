@@ -1,7 +1,7 @@
 ---
 name: Zhaoxi Yu
 image: images/members/zhaoxi-yu.jpg
-role: masterstu
+role: alumni
 grade: 2021
 description: 
 links:

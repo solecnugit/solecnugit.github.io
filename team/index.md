@@ -30,6 +30,8 @@ We foster an environment where team members are treated equally, and where we re
 
 ### Undergraduate Students
 
+*Currently none.*
+
 {% include list.html data="members" component="portrait" filters="role: undergraduatestu" style="small" %}
 
 ### Alumni

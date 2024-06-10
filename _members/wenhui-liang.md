@@ -1,7 +1,7 @@
 ---
 name: Wenhui Liang
 image: images/members/wenhui-liang.jpg
-role: masterstu
+role: alumni
 grade: 2021
 description: 
 links:
