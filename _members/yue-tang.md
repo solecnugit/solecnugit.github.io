@@ -8,7 +8,7 @@ links:
   email: ytang@stu.ecnu.edu.cn
 ---
 
-汤越，男，浙江杭州人。
-研究方向：动态编译
+Hi, I'm YUE, a zero-year PhD student at DASE & SOLE, advised by Prof.Huang Bo. My research interests lie in the Binary Translation and Compilation Optimizations.
 
+#### Monologue：    
 Always shining, always young! Enjoy sunrise, enjoy sunset! Love you and love the world!
