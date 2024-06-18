@@ -3,7 +3,7 @@ name: Wenhui Liang
 image: images/members/wenhui-liang.jpg
 role: alumni
 grade: 2021
-description: 毕业去向：上海天数智芯半导体有限公司
+description: Iluvatar CoreX
 links:
   email: 51215903095@stu.ecnu.edu.cn
 ---
