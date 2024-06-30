@@ -10,6 +10,8 @@ links:
 
 Yilei zhang received his bachelor’s degree from Nanjing Agricultural University in Jiangsu, China, in 2019. He is currently pursuing his PhD at the School of Data Science and Engineering, East China Normal University. His research interests include binary translation, compiler optimization and LLM compiler.
 
+{% include section.html %}
+
 ## Publications
 
 - **Zhang, Y**., Liao, H., Wang, Z., Huang, B., & Guo, J. (2024). EFACT: An External Function Auto-Completion Tool to strengthen static binary lifting. Journal of Systems and Software, 215, 112092.
