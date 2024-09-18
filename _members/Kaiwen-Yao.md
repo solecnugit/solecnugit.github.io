@@ -1,6 +1,6 @@
 ---
 name: KaiwenYao
-image: images/members/Kaiwen_Yao.jpg
+image: images/members/Kaiwen-Yao.jpg
 role: undergraduatestu
 grade: 2022
 description: 
