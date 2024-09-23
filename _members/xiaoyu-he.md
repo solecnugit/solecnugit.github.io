@@ -5,7 +5,7 @@ role: masterstu
 grade: 2024
 links:
   home-page: https://github.com/hxygmy
-  email: 51275903016@stu.ecnu.edu.cn
+  email: he.xy@stu.ecnu.edu.cn
 ---
 
-He Xiaoyu, ECNU DaSE, master student.
+He Xiaoyu (何晓宇), from Puyang, Henan Province. Master student at SOLE lab of ECNU.
