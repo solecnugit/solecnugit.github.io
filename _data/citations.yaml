@@ -1,5 +1,49 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- title: 'Retrospecting Available CPU Resources: SMT-Aware Scheduling to Prevent SLA
+    Violations in Data Centers'
+  authors:
+  - Haoyu Liao
+  - Tong-yu Liu
+  - Jianmei Guo
+  - Bo Huang
+  - Dingyu Yang
+  - Jonathan Ding
+  type: paper
+  publisher: IEEE Transactions on Parallel and Distributed Systems
+  description: 'The paper focuses on an understudied yet fundamental problem: existing
+    methods typically average the utilization of multiple hardware threads to evaluate
+    the available CPU resources. However, the approach could underestimate the actual
+    usage of the underlying physical core for Simultaneous Multi-Threading (SMT) processors,
+    leading to an overestimation of remaining resources. The overestimation propagates
+    from microarchitecture to operating systems and cloud schedulers, which may misguide
+    scheduling decisions, exacerbate CPU overcommitment, and increase Service Level
+    Agreement (SLA) violations. To address the potential overestimation problem, we
+    propose an SMT-aware and purely data-driven approach named Remaining CPU (RCPU)
+    that reserves more CPU resources to restrict CPU overcommitment and prevent SLA
+    violations. RCPU requires only a few modifications to the existing cloud infrastructures
+    and can be scaled up to large data centers. Extensive evaluations in the data
+    center proved that RCPU contributes to a reduction of SLA violations by 18% on
+    average for 98% of all latency-sensitive applications. Under a benchmarking experiment,
+    we prove that RCPU increases the accuracy by 69% in terms of Mean Absolute Error
+    (MAE) compared to the state-of-the-art'
+  date: '2024-11-08'
+  image: images/publications/RCPU.jpg
+  buttons:
+  - type: website
+    link: https://ieeexplore.ieee.org/document/10748366
+  - type: source
+    link: https://github.com/solecnugit/rcpu
+  tags:
+  - cloud computing
+  - data center
+  - latency-sensitive applications
+  - microarchitecture
+  - QoS
+  - SMT interference
+  link: https://dl.acm.org/doi/10.1145/3691620.3695268
+  plugin: sources.py
+  file: sources.yaml
 - title: 'DeployFix: Dynamic Repair of Software Deployment Failures via Constraint
     Solving'
   authors:
@@ -14,7 +58,7 @@
   - Guodong Yang
   - Liping Zhang
   type: paper
-  publisher: (ASE '24) Proceedings of the 39th IEEE/ACM International Conference on
+  publisher: (ASE'24) Proceedings of the 39th IEEE/ACM International Conference on
     Automated Software Engineering
   description: Software deployment misconfiguration often happens and has been one
     of the major causes of deployment failures that give rise to service interruptions.
@@ -42,10 +86,10 @@
   - type: source
     link: https://github.com/solecnugit/deployfix
   tags:
-  - Cloud Computing
-  - Deployment Failures
-  - Dynamic Repair
-  - Constraint Solving
+  - cloud computing
+  - deployment failures
+  - dynamic repair
+  - constraint solving
   link: https://dl.acm.org/doi/10.1145/3691620.3695268
   plugin: sources.py
   file: sources.yaml
@@ -85,10 +129,10 @@
   - type: source
     link: https://github.com/solecnugit/EFACT
   tags:
-  - External function completion
-  - Binary lifting
-  - Static binary translation
-  - Reverse engineering
+  - external function completion
+  - binary lifting
+  - static binary translation
+  - reverse engineering
   link: https://www.sciencedirect.com/science/article/pii/S0164121224001377
   plugin: sources.py
   file: sources.yaml
