@@ -1,6 +1,6 @@
 ---
 name: Zhuoyi-XU
-image: images/members/Zhuoyi.XU.jpg
+image: images/members/Zhuoyi-XU.jpg
 role: undergraduatestu
 grade: 2023
 description: 
