@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="/preview/pr-102/feed.xml" rel="self" type="application/atom+xml" /><link href="/preview/pr-102/" rel="alternate" type="text/html" /><updated>2025-05-19T12:12:43+00:00</updated><id>/preview/pr-102/feed.xml</id><title type="html">System Optimization Lab</title><subtitle>SOLE (System Optimization Lab @ East China Normal University) · 华东师范大学系统优化实验室</subtitle><entry><title type="html">Paper Accepted by ACM TACO</title><link href="/preview/pr-102/2025/05/09/AOBO-accepted.html" rel="alternate" type="text/html" title="Paper Accepted by ACM TACO" /><published>2025-05-09T00:00:00+00:00</published><updated>2025-05-19T12:06:04+00:00</updated><id>/preview/pr-102/2025/05/09/AOBO-accepted</id><content type="html" xml:base="/preview/pr-102/2025/05/09/AOBO-accepted.html"><![CDATA[<p>May, 2025. Paper <em>AOBO: A Fast-Switching Online Binary Optimizer on AArch64</em> was accepted by ACM TACO. 
+Congratulations to Wenlong Mu and Yue Tang.</p>
+
+<blockquote>
+  <p><a href="https://dl.acm.org/doi/10.1145/3736170">PDF</a> (Open Access)</p>
+
+  <p><a href="https://github.com/solecnugit/AOBO">Source Code</a></p>
+</blockquote>]]></content><author><name>Admin</name></author><category term="paper" /><summary type="html"><![CDATA[May, 2025. Paper AOBO: A Fast-Switching Online Binary Optimizer on AArch64 was accepted by ACM TACO. Congratulations to Wenlong Mu and Yue Tang.]]></summary></entry><entry><title type="html">SOLE and PPI Co-organized the First Academic Exchange Forum</title><link href="/preview/pr-102/2024/11/25/1stPPI&SOLE-forum.html" rel="alternate" type="text/html" title="SOLE and PPI Co-organized the First Academic Exchange Forum" /><published>2024-11-25T00:00:00+00:00</published><updated>2025-05-19T12:06:04+00:00</updated><id>/preview/pr-102/2024/11/25/1stPPI&amp;SOLE-forum</id><content type="html" xml:base="/preview/pr-102/2024/11/25/1stPPI&amp;SOLE-forum.html"><![CDATA[<p>After a month of preparation and planning, on November 23, 2024, SOLE from East China Normal University and PPI (Parallel Processing Institution) from Fudan University jointly held the first academic exchange forum at the Computing Center at Fudan University, Handan Campus.</p>
+
+<p>The forum aimed to provide a platform for students from both laboratories to engage in mutual learning and exchange, inspire innovative thinking, broaden academic horizons, and further promote collaboration between the two laboratories.</p>
+
+<p>SOLER Yilei Zhang, Tong-yu Liu, Ning Li and Haoyu Liao presented their works at the forum.</p>
+
+<p>2024年11月23日下午，复旦大学邯郸校区计算中心成功举办了由复旦并行处理研究所与华东师范大学系统优化实验室联合组织的第一届学术交流论坛。
+本次论坛旨在为两实验室的学生提供一个相互学习与交流的平台，激发创新思维，拓展学术视野，进一步促进实验室间的共同发展。</p>
+
+<p>SOLE 实验室同学张义磊、刘通宇、李宁和廖浩宇四位同学依次做了报告。</p>
+
+<div class="cols" style="--cols: 2">
+  
+    
+    <div>
+<figure class="figure">
+  <a class="figure-image" aria-label="演讲者：张义磊&lt;br&gt;主题：静态二进制提升过程中的外部函数补全问题研究">
+    <img src="/preview/pr-102/images/news/1stPPI-SOLE/zyl.jpg" style="
+        width: 80%;
+        max-height: unset;
+      " alt="演讲者：张义磊&lt;br&gt;主题：静态二进制提升过程中的外部函数补全问题研究" loading="lazy" onerror="this.src = '/preview/pr-102/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      演讲者：张义磊<br />主题：静态二进制提升过程中的外部函数补全问题研究
+
+    </figcaption>
+  
+</figure>
+
+</div>
+  
+    
+    <div>
+<figure class="figure">
+  <a class="figure-image" aria-label="演讲者：刘通宇&lt;br&gt;主题：基于自适应分组的跨平台硬件性能计数器高效复用">
+    <img src="/preview/pr-102/images/news/1stPPI-SOLE/lty.jpg" style="
+        width: 80%;
+        max-height: unset;
+      " alt="演讲者：刘通宇&lt;br&gt;主题：基于自适应分组的跨平台硬件性能计数器高效复用" loading="lazy" onerror="this.src = '/preview/pr-102/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      演讲者：刘通宇<br />主题：基于自适应分组的跨平台硬件性能计数器高效复用
+
+    </figcaption>
+  
+</figure>
+
+</div>
+  
+</div>
+
+<div class="cols" style="--cols: 2">
+  
+    
+    <div>
+<figure class="figure">
+  <a class="figure-image" aria-label="演讲者：李宁&lt;br&gt;主题：针对延迟敏感型应用高效定位忙等待-同步性能缺陷">
+    <img src="/preview/pr-102/images/news/1stPPI-SOLE/ln.jpg" style="
+        width: 80%;
+        max-height: unset;
+      " alt="演讲者：李宁&lt;br&gt;主题：针对延迟敏感型应用高效定位忙等待-同步性能缺陷" loading="lazy" onerror="this.src = '/preview/pr-102/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      演讲者：李宁<br />主题：针对延迟敏感型应用高效定位忙等待-同步性能缺陷
+
+    </figcaption>
+  
+</figure>
+
+</div>
+  
+    
+    <div>
+<figure class="figure">
+  <a class="figure-image" aria-label="演讲者：廖浩宇&lt;br&gt;主题：DeployFix:基于约束求解的软件部署故障动态修复">
+    <img src="/preview/pr-102/images/news/1stPPI-SOLE/lhy.jpg" style="
+        width: 80%;
+        max-height: unset;
+      " alt="演讲者：廖浩宇&lt;br&gt;主题：DeployFix:基于约束求解的软件部署故障动态修复" loading="lazy" onerror="this.src = '/preview/pr-102/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      演讲者：廖浩宇<br />主题：DeployFix:基于约束求解的软件部署故障动态修复
+
+    </figcaption>
+  
+</figure>
+
+</div>
+  
+</div>]]></content><author><name>Yuexi Zou</name></author><category term="event" /><summary type="html"><![CDATA[After a month of preparation and planning, on November 23, 2024, SOLE from East China Normal University and PPI (Parallel Processing Institution) from Fudan University jointly held the first academic exchange forum at the Computing Center at Fudan University, Handan Campus.]]></summary></entry><entry><title type="html">Paper Accepted by IEEE TPDS</title><link href="/preview/pr-102/2024/11/06/RCPU-accepted.html" rel="alternate" type="text/html" title="Paper Accepted by IEEE TPDS" /><published>2024-11-06T00:00:00+00:00</published><updated>2025-05-19T12:06:04+00:00</updated><id>/preview/pr-102/2024/11/06/RCPU-accepted</id><content type="html" xml:base="/preview/pr-102/2024/11/06/RCPU-accepted.html"><![CDATA[<p>Nov., 2024. Paper <em>Retrospecting Available CPU Resources: SMT-Aware Scheduling to Prevent SLA Violations in Data Centers</em> was accepted by IEEE TPDS.
+Congratulations to Haoyu and Tong-yu.</p>
+
+<blockquote>
+  <p><a href="https://dl.acm.org/doi/10.1145/3691620.3695268">PDF</a></p>
+
+  <p><a href="https://github.com/solecnugit/deployfix">Source Code</a></p>
+</blockquote>]]></content><author><name>Admin</name></author><category term="paper" /><summary type="html"><![CDATA[Nov., 2024. Paper Retrospecting Available CPU Resources: SMT-Aware Scheduling to Prevent SLA Violations in Data Centers was accepted by IEEE TPDS. Congratulations to Haoyu and Tong-yu.]]></summary></entry><entry><title type="html">SOLERs Received Scholarships!</title><link href="/preview/pr-102/2024/11/05/NationalScholarship.html" rel="alternate" type="text/html" title="SOLERs Received Scholarships!" /><published>2024-11-05T00:00:00+00:00</published><updated>2025-05-19T12:06:04+00:00</updated><id>/preview/pr-102/2024/11/05/NationalScholarship</id><content type="html" xml:base="/preview/pr-102/2024/11/05/NationalScholarship.html"><![CDATA[<p>Congratulations to Haoyu Liao for being awarded the National Scholarship (Master Student) for the 2023-2024 academic year!</p>
+
+<p>Also, congratulations to Wenlong Mu and Yilei Zhang for being awarded the Third Class Company-sponsored Scholarship of DaSE, ECNU.</p>
+
+<p>祝贺廖浩宇获得2023-2024学年国家奖学金（硕士）！</p>
+
+<p>也祝贺牟文龙与张义磊获得数据科学与工程学院企业奖学金三等奖！</p>]]></content><author><name>Admin</name></author><category term="award" /><summary type="html"><![CDATA[Congratulations to Haoyu Liao for being awarded the National Scholarship (Master Student) for the 2023-2024 academic year!]]></summary></entry><entry><title type="html">Paper Accepted by IEEE/ACM ASE’24</title><link href="/preview/pr-102/2024/10/27/DeployFix-accepted.html" rel="alternate" type="text/html" title="Paper Accepted by IEEE/ACM ASE’24" /><published>2024-10-27T00:00:00+00:00</published><updated>2025-05-19T12:06:04+00:00</updated><id>/preview/pr-102/2024/10/27/DeployFix-accepted</id><content type="html" xml:base="/preview/pr-102/2024/10/27/DeployFix-accepted.html"><![CDATA[<p>Oct., 2024. Paper <em>DeployFix: Dynamic Repair of Software Deployment Failures via Constraint Solving</em> was accepted by IEEE/ACM ASE’24.
+Congratulations to Haoyu.</p>
+
+<blockquote>
+  <p><a href="https://ieeexplore.ieee.org/document/10748366">PDF</a></p>
+
+  <p><a href="https://github.com/solecnugit/rcpu">Source Code</a></p>
+</blockquote>]]></content><author><name>Admin</name></author><category term="paper" /><summary type="html"><![CDATA[Oct., 2024. Paper DeployFix: Dynamic Repair of Software Deployment Failures via Constraint Solving was accepted by IEEE/ACM ASE’24. Congratulations to Haoyu.]]></summary></entry><entry><title type="html">SOLERs Win Awards in the National Competition</title><link href="/preview/pr-102/2024/10/24/OsCompetitionAward.html" rel="alternate" type="text/html" title="SOLERs Win Awards in the National Competition" /><published>2024-10-24T00:00:00+00:00</published><updated>2025-05-19T12:06:04+00:00</updated><id>/preview/pr-102/2024/10/24/OsCompetitionAward</id><content type="html" xml:base="/preview/pr-102/2024/10/24/OsCompetitionAward.html"><![CDATA[<p>Good news! SOLERs achieved good results in “Songshan Lake Cup” - the first China Graduate Operating System Open Source Innovation Competition.</p>
+
+<h2 id="喜报松山湖杯第一届中国研究生操作系统开源创新大赛-sole-实验室团队获佳绩">喜报！“松山湖杯”第一届中国研究生操作系统开源创新大赛 SOLE 实验室团队获佳绩</h2>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="比赛现场：长沙 湖南宾馆">
+    <img src="/preview/pr-102/images/news/OsCompetitionAward/HunanHotel.jpg" style="
+        width: 80%;
+        max-height: unset;
+      " alt="比赛现场：长沙 湖南宾馆" loading="lazy" onerror="this.src = '/preview/pr-102/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      比赛现场：长沙 湖南宾馆
+
+    </figcaption>
+  
+</figure>
+
+<p>10 月 22 日至 24 日，由教育部学位管理与研究生教育司指导、中国学位与研究生教育学会和中国科协青少年科技中心主办、国防科技大学承办的 “松山湖杯”第一届中国研究生操作系统开源创新大赛决赛在长沙落幕。</p>
+
+<p>经激烈角逐，SOLE 实验室两支参赛队伍“zoltraak_队”与“爱吃泡芙队”，分别斩获全国二等奖与全国三等奖，参赛队伍指导教师郭健美教授获“优秀指导教师奖”！</p>
+
+<div class="cols" style="--cols: 2">
+  
+    
+    <div>
+<figure class="figure">
+  <a class="figure-image" aria-label="“zoltraak_队”答辩现场（左起：程奂仑，徐静）">
+    <img src="/preview/pr-102/images/news/OsCompetitionAward/ZoltraakPresentation.jpg" style="
+        width: auto;
+        max-height: unset;
+      " alt="“zoltraak_队”答辩现场（左起：程奂仑，徐静）" loading="lazy" onerror="this.src = '/preview/pr-102/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      “zoltraak_队”答辩现场（左起：程奂仑，徐静）
+
+    </figcaption>
+  
+</figure>
+
+</div>
+  
+    
+    <div>
+<figure class="figure">
+  <a class="figure-image" aria-label="“爱吃泡芙队”答辩现场（左起：刘通宇，廖浩宇，李宁）">
+    <img src="/preview/pr-102/images/news/OsCompetitionAward/HperfPresentation.jpg" style="
+        width: auto;
+        max-height: unset;
+      " alt="“爱吃泡芙队”答辩现场（左起：刘通宇，廖浩宇，李宁）" loading="lazy" onerror="this.src = '/preview/pr-102/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      “爱吃泡芙队”答辩现场（左起：刘通宇，廖浩宇，李宁）
+
+    </figcaption>
+  
+</figure>
+
+</div>
+  
+</div>
+
+<h3 id="全国二等奖--基于ebpf的容器异常检测平台">全国二等奖 | 基于ebpf的容器异常检测平台</h3>
+
+<p>“zoltraak_队”：程奂仑，徐静，何海林</p>
+
+<p>本项目完成了一个基于eBPF（extened Berkeley Packet Filter）的性能采集框架，并对容器间CPU资源竞争、内存溢出、锁竞争等异常事件进行检测。本项目定义了“context switch out”指标及其采集方法，使用图论方法定位容器间资源竞争。对锁资源的竞争使用阈值方法定位Futex瓶颈进程，对OOM 事件则利用内核信息完成根因诊断。指标采集上，对CPU利用率进行容器级别的拆解，为异常定位提供细致的指标数据。</p>
+
+<h3 id="全国三等奖--基于龙蜥操作系统的应用性能监测与预测软件">全国三等奖 | 基于龙蜥操作系统的应用性能监测与预测软件</h3>
+
+<p>“爱吃泡芙队”：刘通宇，李宁，廖浩宇</p>
+
+<p>软硬件全栈的性能数据监控对数据中心的资源隔离、应用调度与性能预测具有重要意义。本项目实现了一个跨平台的软硬件全栈的性能监测与预测工具 hperf，该工具针对现有工测量的低效行为，通过研究 Linux 内核性能事件的调度机制，提出一种自适应的性能事件分组方法提高性能计数器的复用效率，以实现数据的高效采集。此外，本工具还基于 sar 实现了软件性能数据监控，并基于主流时间序列预测算法实现了性能预测。本工具支持 x86 与 aarch64 主流服务器处理器的性能监控，相较于当前主流工具，在测量效率上约有 50% 的提高，并且测量准确率达到商用工具水平。</p>
+
+<div class="cols" style="--cols: 2">
+  
+    
+    <div>
+<figure class="figure">
+  <a class="figure-image" aria-label="“zoltraak_队”获全国二等奖">
+    <img src="/preview/pr-102/images/news/OsCompetitionAward/HuanlunAward.jpg" style="
+        width: auto;
+        max-height: unset;
+      " alt="“zoltraak_队”获全国二等奖" loading="lazy" onerror="this.src = '/preview/pr-102/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      “zoltraak_队”获全国二等奖
+
+    </figcaption>
+  
+</figure>
+
+</div>
+  
+    
+    <div>
+<figure class="figure">
+  <a class="figure-image" aria-label="“爱吃泡芙队”获全国三等奖">
+    <img src="/preview/pr-102/images/news/OsCompetitionAward/TongyuAward.jpg" style="
+        width: auto;
+        max-height: unset;
+      " alt="“爱吃泡芙队”获全国三等奖" loading="lazy" onerror="this.src = '/preview/pr-102/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      “爱吃泡芙队”获全国三等奖
+
+    </figcaption>
+  
+</figure>
+
+</div>
+  
+</div>
+
+<blockquote>
+  <p>来源：<a href="https://mp.weixin.qq.com/s?__biz=MzIxODAyMzYzMQ==&amp;mid=2720906320&amp;idx=1&amp;sn=bc29fa95e54f63d49cd3ac87469589ab&amp;chksm=b1e67bb6d3358e3e1dd2014f7d3ab66149321e0d9e52880e5a5d767c2d5f75b1c16a428f8487&amp;mpshare=1&amp;scene=2&amp;srcid=10288p4xAlqCyZyE0cXFuWLV&amp;sharer_shareinfo=ae92d32354021e2fba9d1f08a9e01d6b&amp;sharer_shareinfo_first=4e468218f98f7871810e0d49014205e9#rd">喜报！“松山湖杯”第一届中国研究生操作系统开源创新大赛数据学院研究生团队获佳绩</a></p>
+</blockquote>]]></content><author><name>Admin</name></author><category term="award" /><summary type="html"><![CDATA[Good news! SOLERs achieved good results in “Songshan Lake Cup” - the first China Graduate Operating System Open Source Innovation Competition.]]></summary></entry><entry><title type="html">SOLERs Attend ChinaSys’24 in Hangzhou</title><link href="/preview/pr-102/2024/06/17/ChinaSys.html" rel="alternate" type="text/html" title="SOLERs Attend ChinaSys’24 in Hangzhou" /><published>2024-06-17T00:00:00+00:00</published><updated>2025-05-19T12:06:04+00:00</updated><id>/preview/pr-102/2024/06/17/ChinaSys</id><content type="html" xml:base="/preview/pr-102/2024/06/17/ChinaSys.html"><![CDATA[<p>Ning Li, Tong-yu Liu, Haoyu Liao, and Yue Tang attended the 26th ACM SIGOPS ChinaSys in Hangzhou. 
+ Ning Li and Tong-yu Liu presented their works.</p>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="大会现场：杭州 ">
+    <img src="/preview/pr-102/images/news/ChinaSys24Spring/chinasys.jpg" style="
+        width: 80%;
+        max-height: unset;
+      " alt="大会现场：杭州 " loading="lazy" onerror="this.src = '/preview/pr-102/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      大会现场：杭州
+
+    </figcaption>
+  
+</figure>
+
+<p>2024年6月15日-16日在杭州召开第26届ChinaSys研讨会，ChinaSys是中国计算机系统及相关领域的学术团体，宗旨是为本领域的研究者和从业者提供资源共享、交换思想和会晤的平台。</p>
+
+<p>SOLE 实验室同学刘通宇、李宁、廖浩宇、汤越参加会议，其中刘通宇和李宁分别作了题为 “Efficient Cross-platform Multiplexing of Hardware Performance Counters via Adaptive Grouping” 和 “TCSA: Efficient Localization of Busy-Wait Synchronization Bugs for Latency-Critical Applications” 的 Lightning Talk.</p>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="左起：汤越、刘通宇、李宁、廖浩宇">
+    <img src="/preview/pr-102/images/news/ChinaSys24Spring/all.jpg" style="
+        width: auto;
+        max-height: unset;
+      " alt="左起：汤越、刘通宇、李宁、廖浩宇" loading="lazy" onerror="this.src = '/preview/pr-102/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      左起：汤越、刘通宇、李宁、廖浩宇
+
+    </figcaption>
+  
+</figure>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="演讲者：李宁">
+    <img src="/preview/pr-102/images/news/ChinaSys24Spring/ningli.jpg" style="
+        width: auto;
+        max-height: unset;
+      " alt="演讲者：李宁" loading="lazy" onerror="this.src = '/preview/pr-102/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      演讲者：李宁
+
+    </figcaption>
+  
+</figure>
+
+<blockquote>
+  <p>ChinaSys 官网：<a href="https://chinasys.org/doku.php?id=conferences">ACM ChinaSys</a></p>
+</blockquote>]]></content><author><name>Ning Li</name></author><category term="conference" /><summary type="html"><![CDATA[Ning Li, Tong-yu Liu, Haoyu Liao, and Yue Tang attended the 26th ACM SIGOPS ChinaSys in Hangzhou. Ning Li and Tong-yu Liu presented their works.]]></summary></entry><entry><title type="html">SOLERs Graduated!</title><link href="/preview/pr-102/2024/05/30/Graduation2024.html" rel="alternate" type="text/html" title="SOLERs Graduated!" /><published>2024-05-30T00:00:00+00:00</published><updated>2025-05-19T12:06:04+00:00</updated><id>/preview/pr-102/2024/05/30/Graduation2024</id><content type="html" xml:base="/preview/pr-102/2024/05/30/Graduation2024.html"><![CDATA[<p>The first batch of master students in SOLE has successfully passed their thesis oral defense and get their master’s degrees. 
+Congratulation to them and wish them all the best for the future.</p>
+
+<p>实验室第一届硕士研究生顺利通过答辩，并获得硕士学位。
+祝贺他们，祝愿他们有美好的前程！</p>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="The group photo to celebrate the graduation">
+    <img src="/preview/pr-102/images/news/Graduates2024-1.jpg" style="
+        width: 80%;
+        max-height: unset;
+      " alt="The group photo to celebrate the graduation" loading="lazy" onerror="this.src = '/preview/pr-102/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      The group photo to celebrate the graduation
+
+    </figcaption>
+  
+</figure>
+
+<figure class="figure">
+  <a class="figure-image" aria-label="The 2024 graduates and the advisor (from left to right, Prof. Bo Huang, Yuyang Li, Zhaoxi Yu, Xueyu Zhang, Tong-yu Liu, Wenhui Liang, respectively)">
+    <img src="/preview/pr-102/images/news/Graduates2024-2.jpg" style="
+        width: 80%;
+        max-height: unset;
+      " alt="The 2024 graduates and the advisor (from left to right, Prof. Bo Huang, Yuyang Li, Zhaoxi Yu, Xueyu Zhang, Tong-yu Liu, Wenhui Liang, respectively)" loading="lazy" onerror="this.src = '/preview/pr-102/images/fallback.svg'; this.onerror = null;" />
+  </a>
+  
+    <figcaption class="figure-caption">
+      The 2024 graduates and the advisor (from left to right, Prof. Bo Huang, Yuyang Li, Zhaoxi Yu, Xueyu Zhang, Tong-yu Liu, Wenhui Liang, respectively)
+
+    </figcaption>
+  
+</figure>]]></content><author><name>Admin</name></author><category term="event" /><summary type="html"><![CDATA[The first batch of master students in SOLE has successfully passed their thesis oral defense and get their master’s degrees. Congratulation to them and wish them all the best for the future.]]></summary></entry><entry><title type="html">Paper Accepted by Journal of Systems and Software</title><link href="/preview/pr-102/2024/05/11/EFACT-accepted.html" rel="alternate" type="text/html" title="Paper Accepted by Journal of Systems and Software" /><published>2024-05-11T00:00:00+00:00</published><updated>2025-05-19T12:06:04+00:00</updated><id>/preview/pr-102/2024/05/11/EFACT-accepted</id><content type="html" xml:base="/preview/pr-102/2024/05/11/EFACT-accepted.html"><![CDATA[<p>May, 2024. Paper <em>EFACT: An External Function Auto-Completion Tool to strengthen static binary lifting</em> was accepted by Journal of Systems and Software. 
+Congratulations to Yilei.</p>
+
+<blockquote>
+  <p><a href="https://www.sciencedirect.com/science/article/pii/S0164121224001377">PDF</a></p>
+
+  <p><a href="https://github.com/solecnugit/EFACT">Source Code</a></p>
+</blockquote>]]></content><author><name>Admin</name></author><category term="paper" /><summary type="html"><![CDATA[May, 2024. Paper EFACT: An External Function Auto-Completion Tool to strengthen static binary lifting was accepted by Journal of Systems and Software. Congratulations to Yilei.]]></summary></entry><entry><title type="html">Paper Accepted by IEEE TPDS</title><link href="/preview/pr-102/2023/12/04/TCSA-accepted.html" rel="alternate" type="text/html" title="Paper Accepted by IEEE TPDS" /><published>2023-12-04T00:00:00+00:00</published><updated>2025-05-19T12:06:04+00:00</updated><id>/preview/pr-102/2023/12/04/TCSA-accepted</id><content type="html" xml:base="/preview/pr-102/2023/12/04/TCSA-accepted.html"><![CDATA[<p>Dec., 2023. Paper <em>TCSA: Efficient Localization of Busy-Wait Synchronization Bugs for Latency-Critical Applications</em> was accepted by IEEE TPDS. 
+Congratulations to Ning Li.</p>
+
+<blockquote>
+  <p><a href="https://ieeexplore.ieee.org/document/10356837">PDF</a></p>
+
+  <p><a href="https://github.com/MercuryLc/TCSA">Source Code</a></p>
+</blockquote>]]></content><author><name>Admin</name></author><category term="paper" /><summary type="html"><![CDATA[Dec., 2023. Paper TCSA: Efficient Localization of Busy-Wait Synchronization Bugs for Latency-Critical Applications was accepted by IEEE TPDS. Congratulations to Ning Li.]]></summary></entry></feed>
