@@ -32,7 +32,7 @@
   # description: A holistic memory performance metric, calculated from a fusion of bandwidth and latency metrics across different access patterns.
 
 - title: AOBO
-  subtitle: The first online code layout optimization system on the AArch64 platform.
+  subtitle: A Fast-Switching Online Binary Optimizer on AArch64.
   group: featured
   image: images/projects/AOBOLogo.jpg
   link: https://github.com/solecnugit/AOBO.git
