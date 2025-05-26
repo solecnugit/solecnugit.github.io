@@ -3,7 +3,7 @@ name: Ke-er Zhang
 image: images/members/keer-zhang.jpg
 role: alumni
 grade: 2022
-description:
+description: Meituan
 links:
   email: 19966422680@163.com
 ---

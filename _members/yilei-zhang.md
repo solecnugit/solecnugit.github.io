@@ -3,7 +3,7 @@ name: Yilei Zhang
 image: images/members/yilei-zhang.jpg
 role: alumni
 grade: 2019
-description:
+description: Li Auto
 links:
   email: ylzhang@stu.ecnu.edu.cn
 ---
