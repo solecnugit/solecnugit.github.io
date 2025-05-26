@@ -1,7 +1,7 @@
 ---
 name: Di Wu
 image: images/members/di-wu.jpg
-role: masterstu
+role: alumni
 grade: 2022
 description:
 links:

@@ -1,7 +1,7 @@
 ---
 name: Haoyu Liao
 image: images/members/haoyu-liao.jpg
-role: masterstu
+role: alumni
 grade: 2022
 description:
 links:

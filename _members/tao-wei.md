@@ -1,9 +1,9 @@
 ---
 name: Tao Wei
 image: images/members/tao-wei.jpg
-role: masterstu
+role: alumni
 grade: 2022
-description: 
+description:
 links:
   email: w1136862851@qq.com
 ---

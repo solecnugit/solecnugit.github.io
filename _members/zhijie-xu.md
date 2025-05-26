@@ -1,9 +1,9 @@
 ---
 name: Zhijie Xu
 image: images/members/zhijie-xu.jpg
-role: masterstu
+role: alumni
 grade: 2022
-description: 
+description:
 links:
   email: 51255903062@stu.ecnu.edu.cn
 ---

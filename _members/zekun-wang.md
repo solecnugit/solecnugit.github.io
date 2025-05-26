@@ -1,9 +1,9 @@
 ---
 name: Zekun Wang
 image: images/members/zekun-wang.jpg
-role: masterstu
+role: alumni
 grade: 2022
-description: 
+description:
 links:
   email: 1131623843@qq.com
 ---
