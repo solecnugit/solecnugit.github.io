@@ -16,6 +16,7 @@ _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-tem
     - 提交 PR 后，会自动运行构建脚本，可以预览修改结果
 4. 管理员负责审核，PR 审核通过后，修改结果将同步到实验室主页上
 
+> [!NOTE]
 > 我们有做缓存，PR 合并后大概需要等待 2 小时候，访问 solelab.tech 才能看到更改
 
 ### 成员信息
@@ -40,7 +41,8 @@ links:
 
 若需要更新头像，在 `images/members/` 目录下添加一张图片，文件名与 `name` 保持一致，并相应地修改路径。
 
-> 注意：考虑到加载速度，推荐头像分辨率控制在 512 * 512 以内，大小在 40 KiB 以内。此外，由于每个人的头像是圆形的，最好使用宽高比为 1:1 的图片。
+> [!TIP]
+> 考虑到加载速度，推荐头像分辨率控制在 512 * 512 以内，大小在 40 KiB 以内。此外，由于每个人的头像是圆形的，最好使用宽高比为 1:1 的图片。
 
 `role` 属性：老师 `teacher`，博士研究生 `phdstu`，硕士研究生 `masterstu`，本科生 `undergraduatestu`，校友 `alumni`
 
@@ -48,29 +50,32 @@ links:
 
 `description` 属性：显示在头像下方的描述文字，老师为其职称，学生则留空白
 
+> [!NOTE]
 > 已经毕业的校友，description 为现在所在的单位
 
 `links` 属性：支持多种链接，包括 email，orcid，github 等，具体参见：https://greene-lab.gitbook.io/lab-website-template-docs/basics/team-members#add-remove-members ，建议添加 email，orcid，github 这三项，其格式参照上方示例。
 
 之后的部分，可以用 Markdown 自行编辑，可以添加个人简历、项目经历、发表论文、参与项目等各类信息。
 
+> [!TIP]
 > 考虑到排版问题，建议个人简介作为 Markdown 的第一个部分，与照片/链接左右排版，接着插入一个 `{% include section.html %}` 另起一个部分，这个部分会占用整个页面宽度，可以参考 _members/tongyu-liu.md。
 
 ### 发表论文
 
 若需要添加发表的论文，修改 `_data/sources.yaml` 文件的内容
 
-> 重要！！！
-
+> [!CAUTION]
 > 请务必**不要**修改 `_data/citations.yaml` 文件的内容，该文件是由 `_data/sources.yaml` 文件自动生成的。
 
+> [!TIP]
 > 这个文件是按照 YAML 格式编写的，写完之后记得检查一下，比如某一属性的值是一个字符串但里面包含 ":"，这个字符串应该整个用双引号括起来。如果不确定 YAML 是否能被正确解析，可以使用在线 YAML 检测器。 
 
 该文件内包含多条记录，请仿照已有的记录往后继续添加。
 
 其中论文插图，请放在 `images/publications/` 目录内，文件名是论文缩写，并在配置文件中引用。
 
-> 注意：请控制论文插图的大小，建议 40 KiB 以内
+> [!TIP]
+> 请控制论文插图的大小，建议 40 KiB 以内
 
 ### 项目
 
@@ -99,7 +104,8 @@ links:
 
 `link` 属性：代码仓库链接
 
-> 注意：公开的开源代码仓库应当是在 Github 的 solecnugit 组织下的代码仓库，在登记前请完成代码仓库所有权的转移
+> [!IMPORTANT]
+> 公开的开源代码仓库应当是在 Github 的 solecnugit 组织下的代码仓库，在登记前请完成代码仓库所有权的转移
 
 ### 实验室新闻
 
