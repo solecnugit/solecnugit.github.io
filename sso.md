@@ -18,13 +18,17 @@ permalink: /sso.html
 
 {% include section.html %}
 
+## 购买链接
+
+本书由机械工业出版社出版，欢迎通过[淘宝](https://e.tb.cn/h.h255TnIvV6Cq6qx?tk=7RdRVu8tU3k)，[京东](https://3.cn/2-jlXdMd)等网上平台选购。
+
 ## 教材配套资料
 
-### 教材示例代码
+#### 教材示例代码
 
 见 [软件系统优化配套代码仓库@Github](https://github.com/solecnugit/sso_code)
 
-### 教学计划与课程资料
+#### 教学计划与课程资料
 
 包含 PDF 版本的理论教学课件、上机作业与实践项目。
 
@@ -169,6 +173,10 @@ permalink: /sso.html
 {% include section.html %}
 
 ## 勘误
+
+| 页码  | 位置 | 原文 | 更正 |
+| :---- | :---- | :---- | :---- |
+| 3 | 代码 1.1，第 16 行 | `print("% .2f" % (end - start))` | `print("%.2f" % (end - start))` |
 
 > 后续教材的勘误信息将会在此页面发布
 
