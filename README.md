@@ -17,7 +17,7 @@ _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-tem
 4. 管理员负责审核，PR 审核通过后，修改结果将同步到实验室主页上
 
 > [!NOTE]
-> 我们有做缓存，PR 合并后大概需要等待 2 小时候，访问 solelab.tech 才能看到更改
+> 我们有做缓存，PR 合并后大概需要等待 2 小时，访问 solelab.tech 才能看到更改
 
 ### 成员信息
 
