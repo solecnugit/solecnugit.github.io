@@ -176,9 +176,12 @@ permalink: /sso.html
 
 | 页码  | 位置 | 原文 | 更正 |
 | :---- | :---- | :---- | :---- |
+| 3 | 代码 1.1，第 13 行 | `C[i][j] += A[i][k] * B[k][i]` | `C[i][j] += A[i][k] * B[k][j]` |
 | 3 | 代码 1.1，第 16 行 | `print("% .2f" % (end - start))` | `print("%.2f" % (end - start))` |
+
 
 > 后续教材的勘误信息将会在此页面发布
 
 {% capture content %}如果您有任何意见、建议或者评论，欢迎通过邮箱 solecnu@gmail.com 进行反馈。{% endcapture %}
 {% include alert.html type="info" content=content %}
+
