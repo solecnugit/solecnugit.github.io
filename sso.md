@@ -10,7 +10,7 @@ permalink: /sso.html
 {% endcapture %}
 {% include float.html content=content %}
 
-本书详细介绍了软件系统优化的原理、技术和常用方法，强调系统优化应具备从单点到全局的“系统观”，提出了“数据驱动的系统优化”方法，围绕“软件+硬件+数据”三个方面展开讲解。本书共 18 章，分为五个部分。第一部分包括第 1 章和第 2 章，从一个性能优化案例引入，概述了软件系统优化的方法论。第二部分包括第 3~6 章，介绍了性能工程的基础知识。第三部分包括第 7~10 章，介绍计算机体系结构优化的相关知识。第四部分包括第 11~16 章，介绍编译优化的相关知识。第五部分包括第 17 章和第 18 章，针对新兴场景下的系统优化技术展开专题讨论。
+本书详细介绍了软件系统优化的原理、技术和常用方法，强调系统优化应具备从单点到全局的“系统观”，提出了“数据驱动的系统优化”方法，围绕“软件+硬件+数据”三个方面展开讲解。本书共 18 章，分为五个部分。第一部分包括第 1 章和第 2 章，从一个性能优化案例引入，概述了软件系统优化的方法论。第二部分包括第 3 $\sim$ 6 章，介绍了性能工程的基础知识。第三部分包括第 7 $\sim$ 10 章，介绍计算机体系结构优化的相关知识。第四部分包括第 11 $\sim$ 16 章，介绍编译优化的相关知识。第五部分包括第 17 章和第 18 章，针对新兴场景下的系统优化技术展开专题讨论。
 
 本书内容全面，体系完整，适合作为高校计算机及相关专业高年级本科生、研究生的教材，也可作为从事系统优化工作的技术人员的参考书。
 
@@ -174,17 +174,35 @@ permalink: /sso.html
 
 ## 勘误
 
+{% capture content %}本页面持续更新，如果您有任何意见、建议或者评论，欢迎通过邮箱 solecnu@gmail.com 进行反馈。{% endcapture %}
+{% include alert.html type="info" content=content %}
+
+### 文本勘误
+
+| 页码  | 位置 | 原文 | 更正 |
+| :---- | :---- | :---- | :---- |
+| 68 | 第 13 行 | ……假设实验误差 $e$ 符合**标准正态分布** $N(0, \sigma^2)$…… | ……假设实验误差 $e$ 符合**正态分布** $N(0, \sigma^2)$…… |
+
+### 代码勘误
+
+{% capture content %}印刷版的代码可能有较多空格/缩进问题，这里尽可能进行列出错漏之处，完整的代码可参考配套代码库。{% endcapture %}
+{% include alert.html type="warning" content=content %}
+
 | 页码  | 位置 | 原文 | 更正 |
 | :---- | :---- | :---- | :---- |
 | 3 | 代码 1.1，第 13 行 | `C[i][j] += A[i][k] * B[k][i]` | `C[i][j] += A[i][k] * B[k][j]` |
 | 3 | 代码 1.1，第 16 行 | `print("% .2f" % (end - start))` | `print("%.2f" % (end - start))` |
+| 4 | 代码 1.2，第 30 行 | `System.out.printf("%.2f\n" , tdiff);` | `System.out.printf("%.2f\n", tdiff);` |
+| 4 | 代码 1.3，第 10 行 | `float tdiff(struct timeval *start , struct timeval *end) {` | `float tdiff(struct timeval *start, struct timeval *end) {` |
+| 4 | 代码 1.3，第 29-30 行 | 缩进为 16 字符 | 缩进为 12 字符 |
+| 5 | 代码 1.3，第 36 行 | `printf("%.2f\n", tdiff (&start, &end));` | `printf("%.2f\n", tdiff(&start, &end));` |
+| 6 | 代码 1.4，第 15 行 | `int main(int argc , const char *argv[]) {` | `int main(int argc, const char *argv[]) {` |
+| 7 | 代码 1.4，第 36 行 | `printf("%.2f\n", tdiff (&start - &end));` | `printf("%.2f\n", tdiff(&start - &end));` |
+| 10 | 代码 1.6，第 16 行 | `int main(int argc, const char *argv []) {` | `int main(int argc, const char *argv[]) {` |
+| 13 | 代码 1.7，第 16 行 | `int main(int argc, const char *argv []) {` | `int main(int argc, const char *argv[]) {` |
+| 14 | 代码 1.8，第 11 行 | `float tdiff(struct timeval *start , struct timeval *end) {` | `float tdiff(struct timeval *start, struct timeval *end) {` |
+| 16 | 代码 1.9，第 21 行 | `int main(int argc, const char *argv []) {` | `int main(int argc, const char *argv[]) {` |
+| 27 | 代码 3.1，第 29 行 | `printf("Found %d prime(s) in interval [%d , %d] .\n", count, start, end);` | `printf("Found %d prime(s) in interval [%d, %d].\n", count, start, end);` |
 | 31 | 代码 3.3，第 1 行 | `#include <sys/time .h>` | `#include <sys/time.h>` |
+| 35 | 上方代码块，第 4 行 | `Performance counter stats for './prime 1 20000000 '：` | `Performance counter stats for './prime 1 20000000'：` |
 | 39 | 下方代码块，第 3 行 | `$ $./count_primes_parallel <start> <end>` | 删去第一个 `$` |
-
-
-
-> 后续教材的勘误信息将会在此页面发布
-
-{% capture content %}如果您有任何意见、建议或者评论，欢迎通过邮箱 solecnu@gmail.com 进行反馈。{% endcapture %}
-{% include alert.html type="info" content=content %}
-
