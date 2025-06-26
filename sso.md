@@ -178,6 +178,9 @@ permalink: /sso.html
 | :---- | :---- | :---- | :---- |
 | 3 | 代码 1.1，第 13 行 | `C[i][j] += A[i][k] * B[k][i]` | `C[i][j] += A[i][k] * B[k][j]` |
 | 3 | 代码 1.1，第 16 行 | `print("% .2f" % (end - start))` | `print("%.2f" % (end - start))` |
+| 31 | 代码 3.3，第 1 行 | `#include <sys/time .h>` | `#include <sys/time.h>` |
+| 39 | 下方代码块，第 3 行 | `$ $./count_primes_parallel <start> <end>` | 删去第一个 `$` |
+
 
 
 > 后续教材的勘误信息将会在此页面发布
