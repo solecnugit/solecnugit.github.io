@@ -5,7 +5,7 @@ tags:
   - event
 --- 
 
-After a month of preparation and planning, on August 23, 2025, SOLE from East China Normal University and PPI (Parallel Processing Institution) from Fudan University jointly held the first academic exchange forum at the Math Building at East China Normal University. 
+After a month of preparation and planning, on August 23, 2025, SOLE from East China Normal University and PPI (Parallel Processing Institution) from Fudan University jointly held the first academic exchange forum at the Mathematics Hall at East China Normal University. 
 
 The forum aimed to provide a platform for students from both laboratories to engage in mutual learning and exchange, inspire innovative thinking, broaden academic horizons, and further promote collaboration between the two laboratories.
 
