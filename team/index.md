@@ -19,6 +19,7 @@ We foster an environment where team members are treated equally, and where we re
 
 {% include list.html data="members" component="portrait" filters="role: teacher, name: Bo Huang" style="small" %}
 {% include list.html data="members" component="portrait" filters="role: teacher, name: Jianmei Guo" style="small" %}
+{% include list.html data="members" component="portrait" filters="role: teacher, name: Shu Xu" style="small" %}
 
 ### PhD Students
 
