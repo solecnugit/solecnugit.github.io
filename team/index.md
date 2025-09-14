@@ -17,8 +17,9 @@ We foster an environment where team members are treated equally, and where we re
 
 ### Advisors
 
-{% include list.html data="members" component="portrait" filters="role: teacher, name: Bo Huang" style="small" %}
-{% include list.html data="members" component="portrait" filters="role: teacher, name: Jianmei Guo" style="small" %}
+{% include portrait-with-link.html lookup="bo-huang" link="https://faculty.ecnu.edu.cn/_s37/hb2/main.psp" style="small" %}
+{% include portrait-with-link.html lookup="jianmei-guo" link="https://faculty.ecnu.edu.cn/_s37/gjm/main.psp" style="small" %}
+{% include portrait-with-link.html lookup="shu-xu" link="https://faculty.ecnu.edu.cn/_s37/xs2/main.psp" style="small" %}
 
 ### PhD Students
 

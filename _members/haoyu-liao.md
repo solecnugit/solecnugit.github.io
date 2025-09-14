@@ -8,7 +8,7 @@ links:
   email: hyliao@stu.ecnu.edu.cn
 ---
 
-He is pursuing a master degree from the School of Data Science and Engineering, East China Normal University, Shanghai, China. His research interests include cloud scheduling and performance evaluation/analysis.
+He is a PhD student of School of Data Science and Engineering, East China Normal University. His research interests include LLM System, Cloud Scheduling, and Performance Evaluation/Analysis.
 
 {% include section.html %}
 
