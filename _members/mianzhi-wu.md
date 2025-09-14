@@ -1,12 +1,12 @@
 ---
 name: Mianzhi Wu
 image: images/members/mianzhi-wu.jpg
-role: undergraduatestu
-grade: 2021
+role: masterstu
+grade: 2025
 description: 
 links:
-  email: 10215501411@stu.ecnu.edu.cn
+  email: mianzhiwu@stu.ecnu.edu.cn
   github: Hdksg10
 ---
 
-Wu Mianzhi is currently pursuing a Bachelor's degree in Data Science and Big Data Technology at East China Normal University. His current research interests lies on the acceleration and optimization of GPGPU application.
+Wu Mianzhi is currently pursuing a graduate degree in Data Science at East China Normal University. His current research interests lies on the acceleration and optimization of GPGPU application.
