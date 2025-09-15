@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="en" data-dark="false">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!--
+  put your analytics (e.g. Google Analytics) tracking code here
+-->
+
+  <!--
+  put your search engine verification (e.g. Google Search Console) tag here
+-->
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Software System Optimization | System Optimization Lab</title>
+
+<link rel="icon" href="/preview/pr-108/images/icon.png">
+
+<meta name="title" content="Software System Optimization">
+<meta name="description" content="East China Normal University. SOLE (System Optimization Lab @ East China Normal University) · 华东师范大学系统优化实验室">
+
+<meta property="og:title" content="Software System Optimization">
+<meta property="og:site_title" content="System Optimization Lab">
+<meta property="og:description" content="East China Normal University. SOLE (System Optimization Lab @ East China Normal University) · 华东师范大学系统优化实验室">
+<meta property="og:url" content="/preview/pr-108">
+<meta property="og:image" content="/preview/pr-108/images/share.jpg">
+<meta property="og:locale" content="en_US">
+
+<meta property="twitter:title" content="Software System Optimization">
+<meta property="twitter:description" content="East China Normal University. SOLE (System Optimization Lab @ East China Normal University) · 华东师范大学系统优化实验室">
+<meta property="twitter:url" content="/preview/pr-108">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="/preview/pr-108/images/share.jpg">
+
+
+  <meta property="og:type" content="website">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "WebSite",
+    
+    "name": "Software System Optimization",
+    "description": "East China Normal University. SOLE (System Optimization Lab @ East China Normal University) · 华东师范大学系统优化实验室",
+    "headline": "Software System Optimization",
+    "publisher": {
+      "@type": "Organization",
+      "logo": { "@type": "ImageObject", "url": "/preview/pr-108/images/icon.png" }
+    },
+    "url": "/preview/pr-108"
+  }
+</script>
+
+<link rel="alternate" type="application/rss+xml" href="/preview/pr-108/feed.xml">
+
+  <!-- Google Fonts -->
+<!-- automatically get url from fonts used in theme file -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+
+<!-- Font Awesome icons (load asynchronously due to size) -->
+
+<link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
+<noscript>
+  <link href="https://use.fontawesome.com/releases/v6.5.0/css/all.css" rel="stylesheet">
+</noscript>
+
+  <!-- third party styles -->
+<!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
+<!-- <link 
+  href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css"
+  rel="stylesheet"
+/> -->
+<style>
+  /*! tomorrow night eighties; https://github.com/MozMorris/tomorrow-pygments */
+.highlight, .highlight pre, .highlight table { background: #2d2d2d !important; color: #cccccc !important; }
+.highlight .hll { background-color: #515151 !important; }
+.highlight .c { color: #999999 !important; } /* Comment */
+.highlight .err { color: #f2777a !important; } /* Error */
+.highlight .k { color: #cc99cc !important; } /* Keyword */
+.highlight .l { color: #f99157 !important; } /* Literal */
+.highlight .n, .highlight .h { color: #cccccc !important; } /* Name */
+.highlight .o { color: #66cccc !important; } /* Operator */
+.highlight .p { color: #cccccc !important; } /* Punctuation */
+.highlight .cm { color: #999999 !important; } /* Comment.Multiline */
+.highlight .cp { color: #999999 !important; } /* Comment.Preproc */
+.highlight .c1 { color: #999999 !important; } /* Comment.Single */
+.highlight .cs { color: #999999 !important; } /* Comment.Special */
+.highlight .gd { color: #f2777a !important; } /* Generic.Deleted */
+.highlight .ge { font-style: italic !important; } /* Generic.Emph */
+.highlight .gh { color: #cccccc !important; font-weight: bold !important; } /* Generic.Heading */
+.highlight .gi { color: #99cc99 !important; } /* Generic.Inserted */
+.highlight .gp { color: #999999 !important; font-weight: bold !important; } /* Generic.Prompt */
+.highlight .gs { font-weight: bold !important; } /* Generic.Strong */
+.highlight .gu { color: #66cccc !important; font-weight: bold !important; } /* Generic.Subheading */
+.highlight .kc { color: #cc99cc !important; } /* Keyword.Constant */
+.highlight .kd { color: #cc99cc !important; } /* Keyword.Declaration */
+.highlight .kn { color: #66cccc !important; } /* Keyword.Namespace */
+.highlight .kp { color: #cc99cc !important; } /* Keyword.Pseudo */
+.highlight .kr { color: #cc99cc !important; } /* Keyword.Reserved */
+.highlight .kt { color: #ffcc66 !important; } /* Keyword.Type */
+.highlight .ld { color: #99cc99 !important; } /* Literal.Date */
+.highlight .m { color: #f99157 !important; } /* Literal.Number */
+.highlight .s { color: #99cc99 !important; } /* Literal.String */
+.highlight .na { color: #6699cc !important; } /* Name.Attribute */
+.highlight .nb { color: #cccccc !important; } /* Name.Builtin */
+.highlight .nc { color: #ffcc66 !important; } /* Name.Class */
+.highlight .no { color: #f2777a !important; } /* Name.Constant */
+.highlight .nd { color: #66cccc !important; } /* Name.Decorator */
+.highlight .ni { color: #cccccc !important; } /* Name.Entity */
+.highlight .ne { color: #f2777a !important; } /* Name.Exception */
+.highlight .nf { color: #6699cc !important; } /* Name.Function */
+.highlight .nl { color: #cccccc !important; } /* Name.Label */
+.highlight .nn { color: #ffcc66 !important; } /* Name.Namespace */
+.highlight .nx { color: #6699cc !important; } /* Name.Other */
+.highlight .py { color: #cccccc !important; } /* Name.Property */
+.highlight .nt { color: #66cccc !important; } /* Name.Tag */
+.highlight .nv { color: #f2777a !important; } /* Name.Variable */
+.highlight .ow { color: #66cccc !important; } /* Operator.Word */
+.highlight .w { color: #cccccc !important; } /* Text.Whitespace */
+.highlight .mf { color: #f99157 !important; } /* Literal.Number.Float */
+.highlight .mh { color: #f99157 !important; } /* Literal.Number.Hex */
+.highlight .mi { color: #f99157 !important; } /* Literal.Number.Integer */
+.highlight .mo { color: #f99157 !important; } /* Literal.Number.Oct */
+.highlight .sb { color: #99cc99 !important; } /* Literal.String.Backtick */
+.highlight .sc { color: #cccccc !important; } /* Literal.String.Char */
+.highlight .sd { color: #999999 !important; } /* Literal.String.Doc */
+.highlight .s2 { color: #99cc99 !important; } /* Literal.String.Double */
+.highlight .se { color: #f99157 !important; } /* Literal.String.Escape */
+.highlight .sh { color: #99cc99 !important; } /* Literal.String.Heredoc */
+.highlight .si { color: #f99157 !important; } /* Literal.String.Interpol */
+.highlight .sx { color: #99cc99 !important; } /* Literal.String.Other */
+.highlight .sr { color: #99cc99 !important; } /* Literal.String.Regex */
+.highlight .s1 { color: #99cc99 !important; } /* Literal.String.Single */
+.highlight .ss { color: #99cc99 !important; } /* Literal.String.Symbol */
+.highlight .bp { color: #cccccc !important; } /* Name.Builtin.Pseudo */
+.highlight .vc { color: #f2777a !important; } /* Name.Variable.Class */
+.highlight .vg { color: #f2777a !important; } /* Name.Variable.Global */
+.highlight .vi { color: #f2777a !important; } /* Name.Variable.Instance */
+.highlight .il { color: #f99157 !important; } /* Literal.Number.Integer.Long */
+</style>
+
+<!-- include all sass in styles folder -->
+
+
+  
+    <link href="/preview/pr-108/_styles/-theme.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/alert.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/all.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/anchor.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/background.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/body.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/bold.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/button.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/card.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/checkbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/citation.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/code.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/dark-toggle.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/feature.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/figure.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/float.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/font.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/footer.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/form.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/grid.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/header.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/heading.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/highlight.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/icon.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/image.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/link.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/list.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/main.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/paragraph.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/portrait.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/post-excerpt.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/post-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/post-nav.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/quote.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/rule.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/search-box.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/search-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/section.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/table.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/tags.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/textbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/tooltip.css" rel="stylesheet">
+  
+
+  
+    <link href="/preview/pr-108/_styles/util.css" rel="stylesheet">
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+<!-- include all css in styles folder -->
+
+
+
+  <!-- third party scripts -->
+<script src="https://unpkg.com/@popperjs/core@2" defer></script>
+<script src="https://unpkg.com/tippy.js@6" defer></script>
+<script src="https://unpkg.com/mark.js@8" defer></script>
+
+<!-- include all js in scripts folder -->
+
+
+  <script src="/preview/pr-108/_scripts/anchors.js"></script>
+
+  <script src="/preview/pr-108/_scripts/dark-mode.js"></script>
+
+  <script src="/preview/pr-108/_scripts/fetch-tags.js"></script>
+
+  <script src="/preview/pr-108/_scripts/search.js"></script>
+
+  <script src="/preview/pr-108/_scripts/site-search.js"></script>
+
+  <script src="/preview/pr-108/_scripts/table-wrap.js"></script>
+
+  <script src="/preview/pr-108/_scripts/tooltip.js"></script>
+
+
+<script>MathJax={"tex":{"inlineMath":[["$","$"],["\\(","\\)"]],"displayMath":[["$$","$$"],["\\[","\\]"]]},"svg":{"fontCache":"global"}}</script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+  <body>
+    
+
+
+
+
+
+
+
+<header class="background" style="--image: url('/preview/pr-108/images/background.jpg')" data-dark="true">
+  <a href="/preview/pr-108/" class="home">
+    
+      <span class="logo">
+        
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="360" height="40" version="1.1" viewbox="0 0 360 40"><title>SOLE</title>
+<g id="Sole_logo_b" fill="none" fill-rule="evenodd" stroke="none" stroke-width="1"><text id="SYSTEM-OPTIMIZATION" fill="#FFF" font-family="SourceHanSansSC-Medium, Source Han Sans SC" font-size="17" font-weight="400" letter-spacing=".2" line-spacing="22.5"><tspan x="125" y="17">SYSTEM OPTIMIZATION LAB</tspan> <tspan x="125" y="39.5">ECNU</tspan></text><path id="Path" fill="#FFF" d="M6.00166975,3.34141571 C10.784596,0.579991966 16.9005,2.21874352 19.6619238,7.00166975 L22.4119238,11.7648095 C22.549995,12.0039558 22.4680574,12.309751 22.2289111,12.4478222 L18.7639434,14.4483222 C18.551406,14.5711163 18.2861747,14.5200192 18.1328866,14.3391883 L18.0810029,14.2652678 L18.0810029,14.2652678 L15.3317968,9.50166975 C13.9874194,7.17313988 11.0529162,6.3350446 8.69181143,7.56709854 L8.50166975,7.67154273 C6.17313988,9.01592009 5.3350446,11.9504233 6.56709854,14.3115281 L6.67154273,14.5016698 L9.42074888,19.2652678 C9.55869176,19.5044506 9.47674046,19.8101951 9.23766401,19.9483222 L5.77442842,21.9478222 C5.5352821,22.0858934 5.2294869,22.0039558 5.09141571,21.7648095 L2.34141571,17.0016698 C-0.420008034,12.2187435 1.21874352,6.10283946 6.00166975,3.34141571 Z" transform="translate(11.739497, 12.007446) rotate(-2.000000) translate(-11.739497, -12.007446)"></path><path id="Path" fill="#FFF" d="M17.7800375,37.6734772 C12.9971112,40.434901 6.88120717,38.7961494 4.11978342,34.0132232 L1.36978342,29.2500835 C1.23171223,29.0109372 1.31364981,28.705142 1.55279612,28.5670708 L5.01776376,26.5665708 C5.23030123,26.4437767 5.49553246,26.4948737 5.64882063,26.6757047 L5.70070429,26.7496251 L8.44991044,31.5132232 C9.79428779,33.8417531 12.728791,34.6798484 15.0898958,33.4477944 L15.2800375,33.3433502 C17.6085673,31.9989729 18.4466626,29.0644696 17.2146087,26.7033649 L17.1101645,26.5132232 L14.3609583,21.7496251 C14.2230155,21.5104424 14.3049667,21.2046979 14.5440432,21.0665708 L18.0072788,19.0670708 C18.2464251,18.9289996 18.5522203,19.0109372 18.6902915,19.2500835 L21.4402915,24.0132232 C24.2017152,28.7961494 22.5629637,34.9120535 17.7800375,37.6734772 Z" transform="translate(12.042210, 29.007446) rotate(-2.000000) translate(-12.042210, -29.007446)"></path><rect id="Rectangle" width="18" height="5" x="64.5" y="33" fill="#FFF" rx=".5"></rect><rect id="Rectangle" width="5" height="15" x="64.5" y="3" fill="#FFF" rx=".5"></rect><rect id="Rectangle" width="5" height="15" x="64.5" y="23" fill="#FFF" rx=".5"></rect><rect id="Rectangle" width="18" height="5" x="92.5" y="33" fill="#FFF" rx=".5"></rect><rect id="Rectangle" width="5" height="5" x="102.5" y="18" fill="#20A0F3" rx=".5"></rect><rect id="Rectangle" width="18" height="5" x="92.5" y="3" fill="#FFF" rx=".5"></rect><rect id="Rectangle" width="5" height="15" x="92.5" y="3" fill="#FFF" rx=".5"></rect><rect id="Rectangle" width="5" height="15" x="92.5" y="23" fill="#FFF" rx=".5"></rect><path id="Path" fill="#FFF" d="M42.5,23 C48.0228475,23 52.5,27.4771525 52.5,33 L52.5,38.5033003 C52.5,38.7794427 52.2761424,39.0033003 52,39.0033003 L47.999,39.0033003 C47.7228576,39.0033836 47.499,38.779526 47.499,38.5033836 C47.499,38.5033558 47.499,38.5033281 47.4990833,38.5033003 L47.5,33 L47.5,33 C47.5,30.3112453 45.3776933,28.1181819 42.7168896,28.0046195 L42.5,28 C39.8112453,28 37.6181819,30.1223067 37.5046195,32.7831104 L37.5,33 L37.4990833,38.5033003 C37.498954,38.7794102 37.2751098,39.003217 36.999,39.0033003 L33,39.0033003 C32.7238576,39.0033003 32.5,38.7794427 32.5,38.5033003 L32.5,33 L32.5,33 C32.5,27.4771525 36.9771525,23 42.5,23 Z" transform="translate(42.500000, 31.001650) rotate(-180.000000) translate(-42.500000, -31.001650)"></path><path id="Path" fill="#FFF" d="M42.5,2 C48.0228475,2 52.5,6.4771525 52.5,12 L52.5,17.5 C52.5,17.7761424 52.2761424,18 52,18 L47.999,18 C47.7228576,18.0000833 47.499,17.7762257 47.499,17.5000833 C47.499,17.5000555 47.499,17.5000278 47.4990833,17.5 L47.5,12 L47.5,12 C47.5,9.3112453 45.3776933,7.11818189 42.7168896,7.00461951 L42.5,7 C39.8112453,7 37.6181819,9.12230671 37.5046195,11.7831104 L37.5,12 L37.4990833,17.5 C37.498954,17.7761098 37.2751098,17.9999167 36.999,18 L33,18 C32.7238576,18 32.5,17.7761424 32.5,17.5 L32.5,12 L32.5,12 C32.5,6.4771525 36.9771525,2 42.5,2 Z"></path></g></svg>
+        
+      </span>
+    
+    
+      <span class="title-text" data-tooltip="Home">
+        
+        
+      </span>
+    
+  </a>
+
+  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+
+  <nav>
+    
+    
+      
+        <a href="/preview/pr-108/news/" data-tooltip="Lab news and events">
+          News
+        </a>
+      
+    
+      
+        <a href="/preview/pr-108/team/" data-tooltip="About our team members">
+          Team
+        </a>
+      
+    
+      
+        <a href="/preview/pr-108/projects/" data-tooltip="Open source tools, and more">
+          Projects
+        </a>
+      
+    
+      
+        <a href="/preview/pr-108/publications/" data-tooltip="Published works">
+          Publications
+        </a>
+      
+    
+      
+        <a href="/preview/pr-108/courses/" data-tooltip="Browse the courses we offer">
+          Courses
+        </a>
+      
+    
+  </nav>
+</header>
+
+    <main>
+      <!--
+  modify main content of page:
+  - add section breaks
+  - attach section properties
+  - filter out blank sections
+-->
+
+
+
+
+
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <h1 id="软件系统优化">软件系统优化</h1>
+
+<div class="float">
+  
+<figure class="figure">
+  <a class="figure-image" aria-label="figure link">
+    <img src="/preview/pr-108/images/courses/SSOPreface.jpg" style="
+        width: 300px;
+        max-height: unset;
+      " alt="figure image" loading="lazy" onerror="this.src = '/preview/pr-108/images/fallback.svg'; this.onerror = null;">
+  </a>
+  
+</figure>
+
+
+</div>
+
+<p>本书详细介绍了软件系统优化的原理、技术和常用方法，强调系统优化应具备从单点到全局的“系统观”，提出了“数据驱动的系统优化”方法，围绕“软件+硬件+数据”三个方面展开讲解。本书共 18 章，分为五个部分。第一部分包括第 1 章和第 2 章，从一个性能优化案例引入，概述了软件系统优化的方法论。第二部分包括第 3 $\sim$ 6 章，介绍了性能工程的基础知识。第三部分包括第 7 $\sim$ 10 章，介绍计算机体系结构优化的相关知识。第四部分包括第 11 $\sim$ 16 章，介绍编译优化的相关知识。第五部分包括第 17 章和第 18 章，针对新兴场景下的系统优化技术展开专题讨论。</p>
+
+<p>本书内容全面，体系完整，适合作为高校计算机及相关专业高年级本科生、研究生的教材，也可作为从事系统优化工作的技术人员的参考书。</p>
+
+<div class="float" data-clear="">
+  
+
+</div>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h2 id="购买链接">购买链接</h2>
+
+<p>本书由机械工业出版社出版，欢迎通过<a href="https://e.tb.cn/h.h255TnIvV6Cq6qx?tk=7RdRVu8tU3k">淘宝</a>，<a href="https://3.cn/2-jlXdMd">京东</a>等网上平台选购。</p>
+
+<h2 id="教材配套资料">教材配套资料</h2>
+
+<h4 id="教材示例代码">教材示例代码</h4>
+
+<p>见 <a href="https://github.com/solecnugit/sso_code">软件系统优化配套代码仓库@Github</a></p>
+
+<h4 id="教学计划与课程资料">教学计划与课程资料</h4>
+
+<p>包含 PDF 版本的理论教学课件、上机作业与实践项目。</p>
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:#e0e0e0;border-style:solid;border-width:1px;font-size:14px;
+  overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg th{border-color:#e0e0e0;border-style:solid;border-width:1px;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:5px 5px;word-break:normal;}
+.tg .tg-pb0m{border-color:#e0e0e0;text-align:center;vertical-align:center}
+.tg .tg-za14{border-color:#e0e0e0;text-align:center;vertical-align:center}
+.tg .tg-7zrl{text-align:center;vertical-align:center}
+</style>
+
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-pb0m" rowspan="2">周</th>
+    <th class="tg-pb0m" colspan="2">理论课</th>
+    <th class="tg-pb0m" colspan="2">实践课</th>
+  </tr>
+  <tr>
+    <th class="tg-pb0m">模块</th>
+    <th class="tg-pb0m">主题</th>
+    <th class="tg-pb0m">上机作业（2 周 / 个）</th>
+    <th class="tg-pb0m">实践项目（4 周 / 个）</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-za14">1</td>
+    <td class="tg-za14" rowspan="2">绪论 <a href="https://raw.githubusercontent.com/solecnugit/solecnugit.github.io/main/assets/theory/Ch1.Ch2.Intro.pdf">[PDF]</a>
+</td>
+    <td class="tg-za14">矩阵乘法优化案例</td>
+    <td class="tg-za14">
+</td>
+    <td class="tg-za14">
+</td>
+  </tr>
+  <tr>
+    <td class="tg-za14">2</td>
+    <td class="tg-za14">方法论概述</td>
+    <td class="tg-za14">
+</td>
+    <td class="tg-za14">
+</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">3</td>
+    <td class="tg-7zrl" rowspan="4">性能工程基础</td>
+    <td class="tg-7zrl">性能测量 <a href="https://raw.githubusercontent.com/solecnugit/solecnugit.github.io/main/assets/theory/Ch3.Measurement.pdf">[PDF]</a>
+</td>
+    <td class="tg-7zrl">A1 初试环境和工具 <a href="https://raw.githubusercontent.com/solecnugit/solecnugit.github.io/main/assets/practice/A1.pdf">[PDF]</a>
+</td>
+    <td class="tg-7zrl">
+</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">4</td>
+    <td class="tg-7zrl">基准评测 <a href="https://raw.githubusercontent.com/solecnugit/solecnugit.github.io/main/assets/theory/Ch4.Benchmark.pdf">[PDF]</a>
+</td>
+    <td class="tg-7zrl">A2 SPECjvm2008 基准测试 <a href="https://raw.githubusercontent.com/solecnugit/solecnugit.github.io/main/assets/practice/A2.pdf">[PDF]</a>
+</td>
+    <td class="tg-7zrl">P1 矩阵乘法自动调优器 <a href="https://raw.githubusercontent.com/solecnugit/solecnugit.github.io/main/assets/practice/P1.pdf">[PDF]</a>
+</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">5</td>
+    <td class="tg-7zrl">配置优化 <a href="https://raw.githubusercontent.com/solecnugit/solecnugit.github.io/main/assets/theory/Ch5.Configure.pdf">[PDF]</a>
+</td>
+    <td class="tg-7zrl">A1 提交</td>
+    <td class="tg-7zrl">
+</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">6</td>
+    <td class="tg-7zrl">性能评价 <a href="https://raw.githubusercontent.com/solecnugit/solecnugit.github.io/main/assets/theory/Ch6.Evaluation.pdf">[PDF]</a>
+</td>
+    <td class="tg-7zrl">A2 提交<br>A1 反馈和检查</td>
+    <td class="tg-7zrl">
+</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">7</td>
+    <td class="tg-7zrl" rowspan="4">计算机体系结构优化</td>
+    <td class="tg-7zrl">处理器优化 <a href="https://raw.githubusercontent.com/solecnugit/solecnugit.github.io/main/assets/theory/Ch7.Processor.pdf">[PDF]</a>
+</td>
+    <td class="tg-7zrl">A2 反馈和检查</td>
+    <td class="tg-7zrl">
+</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">8</td>
+    <td class="tg-7zrl">存储器优化 <a href="https://raw.githubusercontent.com/solecnugit/solecnugit.github.io/main/assets/theory/Ch8.Memory.pdf">[PDF]</a>
+</td>
+    <td class="tg-7zrl">
+</td>
+    <td class="tg-7zrl">P1 提交</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">9</td>
+    <td class="tg-7zrl">微体系结构性能分析 <a href="https://raw.githubusercontent.com/solecnugit/solecnugit.github.io/main/assets/theory/Ch9.Microarchitecture.pdf">[PDF]</a>
+</td>
+    <td class="tg-7zrl">
+</td>
+    <td class="tg-7zrl">P2 剖析合并排序 <a href="https://raw.githubusercontent.com/solecnugit/solecnugit.github.io/main/assets/practice/P2.pdf">[PDF]</a><br>P1 反馈和检查</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">10</td>
+    <td class="tg-7zrl">异构计算与编程 <a href="https://raw.githubusercontent.com/solecnugit/solecnugit.github.io/main/assets/theory/Ch10.Heterogeneous.pdf">[PDF]</a>
+</td>
+    <td class="tg-7zrl">A3 oneAPI 异构编程 <a href="https://raw.githubusercontent.com/solecnugit/solecnugit.github.io/main/assets/practice/A3.pdf">[PDF]</a>
+</td>
+    <td class="tg-7zrl">
+</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">11</td>
+    <td class="tg-7zrl" rowspan="6">编译优化</td>
+    <td class="tg-7zrl">源程序级别的常见优化方法 <a href="https://raw.githubusercontent.com/solecnugit/solecnugit.github.io/main/assets/theory/Ch11.Bentley.pdf">[PDF]</a>
+</td>
+    <td class="tg-7zrl">
+</td>
+    <td class="tg-7zrl">
+</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">12</td>
+    <td class="tg-7zrl">编译器概述 <a href="https://raw.githubusercontent.com/solecnugit/solecnugit.github.io/main/assets/theory/Ch12.Compiler.pdf">[PDF]</a>
+</td>
+    <td class="tg-7zrl">A4 GCC 与 Clang/LLVM 优化比较 <a href="https://raw.githubusercontent.com/solecnugit/solecnugit.github.io/main/assets/practice/A4.pdf">[PDF]</a><br>A3 提交</td>
+    <td class="tg-7zrl">P3 交叉编译与跨平台应用仿真 <a href="https://raw.githubusercontent.com/solecnugit/solecnugit.github.io/main/assets/practice/P3.pdf">[PDF]</a>
+</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">13</td>
+    <td class="tg-7zrl">目标指令集架构及汇编语言 <a href="https://raw.githubusercontent.com/solecnugit/solecnugit.github.io/main/assets/theory/Ch13.Assembly.pdf">[PDF]</a>
+</td>
+    <td class="tg-7zrl">A3 反馈和检查</td>
+    <td class="tg-7zrl">P2 提交</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">14</td>
+    <td class="tg-7zrl">C 程序的汇编代码生成 <a href="https://raw.githubusercontent.com/solecnugit/solecnugit.github.io/main/assets/theory/Ch14.LLVMIR.pdf">[PDF]</a>
+</td>
+    <td class="tg-7zrl">A4 提交</td>
+    <td class="tg-7zrl">P2 反馈和检查</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">15</td>
+    <td class="tg-7zrl">编译器的优化能力 <a href="https://raw.githubusercontent.com/solecnugit/solecnugit.github.io/main/assets/theory/Ch15.Optimization.pdf">[PDF]</a>
+</td>
+    <td class="tg-7zrl">A5 向量化 <a href="https://raw.githubusercontent.com/solecnugit/solecnugit.github.io/main/assets/practice/A5.pdf">[PDF]</a><br>A4 反馈和检查</td>
+    <td class="tg-7zrl">
+</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">16</td>
+    <td class="tg-7zrl">程序插桩及优化机会识别 <a href="https://raw.githubusercontent.com/solecnugit/solecnugit.github.io/main/assets/theory/Ch16.Instrumentation.pdf">[PDF]</a>
+</td>
+    <td class="tg-7zrl">
+</td>
+    <td class="tg-7zrl">P3 提交</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">17</td>
+    <td class="tg-7zrl" rowspan="2">专题讨论</td>
+    <td class="tg-7zrl">数据中心的性能优化 <a href="https://raw.githubusercontent.com/solecnugit/solecnugit.github.io/main/assets/theory/Ch17.Datacenter.pdf">[PDF]</a>
+</td>
+    <td class="tg-7zrl">A5 提交</td>
+    <td class="tg-7zrl">P3 反馈和检查</td>
+  </tr>
+  <tr>
+    <td class="tg-7zrl">18</td>
+    <td class="tg-7zrl">深度学习框架的优化 <a href="https://raw.githubusercontent.com/solecnugit/solecnugit.github.io/main/assets/theory/Ch18.DLFramework.pdf">[PDF]</a>
+</td>
+    <td class="tg-7zrl">A5 反馈和检查</td>
+    <td class="tg-7zrl">
+</td>
+  </tr>
+</tbody>
+</table>
+  </section>
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  background: ;
+  dark: ;
+  size: ;
+-->
+
+<h2 id="勘误">勘误</h2>
+
+<div class="alert" style="--color: #0ea5e9">
+  
+  <i class="icon fa-solid fa-circle-info"></i>
+  <div class="alert-content">
+    <p>本页面持续更新，如果您有任何意见、建议或者评论，欢迎通过邮箱 solecnu@gmail.com 进行反馈。</p>
+
+  </div>
+</div>
+
+<h3 id="文本勘误">文本勘误</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">页码</th>
+      <th style="text-align: left">位置</th>
+      <th style="text-align: left">原文</th>
+      <th style="text-align: left">更正</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">68</td>
+      <td style="text-align: left">第 13 行</td>
+      <td style="text-align: left">……假设实验误差 $e$ 符合<strong>标准正态分布</strong> $N(0, \sigma^2)$……</td>
+      <td style="text-align: left">……假设实验误差 $e$ 符合<strong>正态分布</strong> $N(0, \sigma^2)$……</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="代码勘误">代码勘误</h3>
+
+<div class="alert" style="--color: #F59E0B">
+  
+  <i class="icon fa-solid fa-circle-exclamation"></i>
+  <div class="alert-content">
+    <p>印刷版的代码可能有较多空格/缩进问题，这里尽可能地列出我们发现的错误之处，敬请读者谅解。完整的代码可参考配套代码库。</p>
+
+  </div>
+</div>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left">页码</th>
+      <th style="text-align: left">位置</th>
+      <th style="text-align: left">原文</th>
+      <th style="text-align: left">更正</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">3</td>
+      <td style="text-align: left">代码 1.1，第 13 行</td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">C[i][j] += A[i][k] * B[k][i]</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">C[i][j] += A[i][k] * B[k][j]</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">3</td>
+      <td style="text-align: left">代码 1.1，第 16 行</td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">print("% .2f" % (end - start))</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">print("%.2f" % (end - start))</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">4</td>
+      <td style="text-align: left">代码 1.2，第 30 行</td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">System.out.printf("%.2f\n" , tdiff);</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">System.out.printf("%.2f\n", tdiff);</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">4</td>
+      <td style="text-align: left">代码 1.3，第 10 行</td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">float tdiff(struct timeval *start , struct timeval *end) {</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">float tdiff(struct timeval *start, struct timeval *end) {</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">4</td>
+      <td style="text-align: left">代码 1.3，第 29-30 行</td>
+      <td style="text-align: left">缩进为 16 字符</td>
+      <td style="text-align: left">缩进为 12 字符</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">5</td>
+      <td style="text-align: left">代码 1.3，第 36 行</td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">printf("%.2f\n", tdiff (&amp;start, &amp;end));</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">printf("%.2f\n", tdiff(&amp;start, &amp;end));</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">6</td>
+      <td style="text-align: left">代码 1.4，第 15 行</td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">int main(int argc , const char *argv[]) {</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">int main(int argc, const char *argv[]) {</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">7</td>
+      <td style="text-align: left">代码 1.4，第 36 行</td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">printf("%.2f\n", tdiff (&amp;start - &amp;end));</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">printf("%.2f\n", tdiff(&amp;start - &amp;end));</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">10</td>
+      <td style="text-align: left">代码 1.6，第 16 行</td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">int main(int argc, const char *argv []) {</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">int main(int argc, const char *argv[]) {</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">13</td>
+      <td style="text-align: left">代码 1.7，第 16 行</td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">int main(int argc, const char *argv []) {</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">int main(int argc, const char *argv[]) {</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">14</td>
+      <td style="text-align: left">代码 1.8，第 11 行</td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">float tdiff(struct timeval *start , struct timeval *end) {</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">float tdiff(struct timeval *start, struct timeval *end) {</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">16</td>
+      <td style="text-align: left">代码 1.9，第 21 行</td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">int main(int argc, const char *argv []) {</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">int main(int argc, const char *argv[]) {</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">27</td>
+      <td style="text-align: left">代码 3.1，第 29 行</td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">printf("Found %d prime(s) in interval [%d , %d] .\n", count, start, end);</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">printf("Found %d prime(s) in interval [%d, %d].\n", count, start, end);</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">31</td>
+      <td style="text-align: left">代码 3.3，第 1 行</td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">#include &lt;sys/time .h&gt;</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">#include &lt;sys/time.h&gt;</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">35</td>
+      <td style="text-align: left">上方代码块，第 4 行</td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">Performance counter stats for './prime 1 20000000 '：</code></td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">Performance counter stats for './prime 1 20000000'：</code></td>
+    </tr>
+    <tr>
+      <td style="text-align: left">39</td>
+      <td style="text-align: left">下方代码块，第 3 行</td>
+      <td style="text-align: left"><code class="language-plaintext highlighter-rouge">$ $./count_primes_parallel &lt;start&gt; &lt;end&gt;</code></td>
+      <td style="text-align: left">删去第一个 <code class="language-plaintext highlighter-rouge">$</code>
+</td>
+    </tr>
+  </tbody>
+</table>
+  </section>
+
+
+    </main>
+    
+
+
+<footer class="background" style="--image: url('/preview/pr-108/images/background.jpg')" data-dark="true" data-size="wide">
+  <!--
+    <div>
+      Extra details like contact info or address
+    </div>
+  -->
+
+  <div>
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="mailto:solecnu@gmail.com" data-tooltip="Email" data-style="bare" aria-label="Email">
+      <i class="icon fa-solid fa-envelope"></i>
+      
+    </a>
+  </div>
+
+
+    
+      
+      
+      
+
+
+
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/solecnugit" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+    </a>
+  </div>
+
+
+    
+  </div>
+
+  <div>
+    © 2025
+    System Optimization Lab
+      |   Built with
+    <a href="https://github.com/greenelab/lab-website-template">
+      Lab Website Template
+    </a>
+  </div>
+
+  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+</footer>
+
+  </body>
+</html>
