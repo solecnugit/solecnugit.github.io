@@ -8,4 +8,4 @@ links:
   email: he.xy@stu.ecnu.edu.cn
 ---
 
-He Xiaoyu (何晓宇), from Puyang, Henan Province. Master student at SOLE lab of ECNU.
+He Xiaoyu (何晓宇), from Puyang, Henan Province. Master student at SOLE.
