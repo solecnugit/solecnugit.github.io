@@ -1,6 +1,6 @@
 ---
 name: JinMiao Song
-image: images/members/JinMiao-Song.jpg
+image: images/members/JinMiao-Song.JPG
 role: masterstu
 grade: 2025
 description: 
