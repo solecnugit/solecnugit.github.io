@@ -1,3 +1,30 @@
+- title: "Fragmentation Harmonization for the Arm Ecosystem: A Unified Method to Measure Memory Bandwidth via Network-on-Chip"
+  authors:
+    - Tong-yu Liu
+    - Huanlun Cheng
+    - Erqi E
+    - Ning Li
+    - Haoyu Liao
+    - Bo Huang
+    - Jianmei Guo
+  type: paper
+  publisher: ACM Transactions on Architecture and Code Optimization
+  description: "Arm-based platforms have significant hardware fragmentation issues due to the nature of Intellectual Property (IP) licensing. It is common for hardware vendors to customize memory controllers. Conventional memory bandwidth measurements based on memory controllers’ performance monitoring units (PMUs) face numerous obstacles, including the lack of kernel driver support and official documentation. To this end, we lift the perspective to the more general and upper level, i.e., the Network-on-Chip (NoC) level, instead of relying on various customized memory controllers. We propose a unified method for measuring memory bandwidth based on NoC traffic monitoring. Through a purely PMU-data-driven detection, our method can automatically reveal the hidden physical locations of memory controllers. By monitoring the upstream and downstream data traffic of the ports where memory controllers are connected on the NoC, our method can achieve accurate read and write memory bandwidth measurements without accessing memory controller PMUs, thus achieving fragmentation harmonization. We summarize all memory bandwidth methods currently applicable to Arm-based platforms and conduct a systematical evaluation. The experimental results show that our proposed method has an average error of 1.05% compared to the oracle answer, which can serve as a generic method to measure memory bandwidth for Arm-based SoCs with vendor-customized memory controllers."
+  date: 2025-10-21
+  image: images/publications/Harmonization.jpg
+  buttons:
+    - type: website
+      link: https://dl.acm.org/doi/10.1145/3772287
+    - type: source
+      link: https://github.com/solecnugit/paper-arm-mem-bw
+  tags:
+    - fragmentation harmonization
+    - memory bandwidth
+    - performance measurement
+    - hardware performance counter
+    - netswork-on-chip
+  link: https://dl.acm.org/doi/10.1145/3736170
+
 - title: "AOBO: A Fast-Switching Online Binary Optimizer on AArch64"
   authors:
     - Wenlong Mu
