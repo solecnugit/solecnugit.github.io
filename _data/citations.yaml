@@ -44,7 +44,7 @@
   - performance measurement
   - hardware performance counter
   - netswork-on-chip
-  link: https://dl.acm.org/doi/10.1145/3736170
+  link: https://dl.acm.org/doi/10.1145/3772287
   plugin: sources.py
   file: sources.yaml
 - title: 'AOBO: A Fast-Switching Online Binary Optimizer on AArch64'
