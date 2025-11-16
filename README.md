@@ -1,7 +1,7 @@
 
 # SOLE WebSite
 
-Visit **[solelab.tech](http://solelab.tech)** 🚀
+Visit **[github.solelab.tech](http://github.solelab.tech)** 🚀
 
 _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
 
