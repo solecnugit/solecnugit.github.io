@@ -64,7 +64,7 @@
     </style>
 </head>
 <body>
-    <div id="root"></div>
+    <div id="dravx-root"></div>
 
     <script type="text/babel">
         const { useState, useEffect } = React;
@@ -614,7 +614,7 @@ cmake --build build -j"$(nproc)"`;
             );
         };
 
-        const root = ReactDOM.createRoot(document.getElementById('root'));
+        const root = ReactDOM.createRoot(document.getElementById('dravx-root'));
         root.render(<App />);
     </script>
 </body>
