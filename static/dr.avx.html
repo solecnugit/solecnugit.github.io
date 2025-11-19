@@ -67,6 +67,12 @@
     <div id="dravx-root"></div>
 
     <script type="text/babel">
+        console.log('=== Debug Info ===');
+        console.log('React loaded:', typeof React !== 'undefined');
+        console.log('ReactDOM loaded:', typeof ReactDOM !== 'undefined');
+        console.log('Babel loaded:', typeof Babel !== 'undefined');
+        console.log('Root element:', document.getElementById('dravx-root'));
+
         const { useState, useEffect } = React;
         
         // --- Icons Component Wrapper ---
