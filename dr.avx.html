@@ -1,31 +1,14 @@
 <!DOCTYPE html>
-<html lang="en" data-dark="false">
-<!--
-  modify main content of page:
-  - add section breaks
-  - attach section properties
-  - filter out blank sections
--->
-
-
-
-
-
-
-  
-  
-  
-
-  <body>
-<section class="background" data-size="page" style="--image: url('/#0f172a')">
-    
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dr.avx - Run AVX-512 Anywhere</title>
     
     <!-- React & ReactDOM -->
-    <script crossorigin="" src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
-    <script crossorigin="" src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
     
     <!-- Babel for JSX -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
@@ -80,8 +63,8 @@
             background: #475569;
         }
     </style>
-
-
+</head>
+<body>
     <div id="root"></div>
 
     <script type="text/babel">
@@ -637,9 +620,5 @@ cmake --build build -j"$(nproc)"`;
         root.render(<App />);
     
     </script>
-
-  </section>
-
-
 </body>
 </html>
