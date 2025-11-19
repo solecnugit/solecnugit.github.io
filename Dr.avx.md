@@ -1,7 +1,5 @@
 ---
 title: Dr.avx
-layout: nothing
+layout: Dr.avx
 permalink: /dr.avx.html
 ---
-
-{% include Dr.avx.html %}
