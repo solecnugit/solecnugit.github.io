@@ -2,7 +2,7 @@
   subtitle: Seamless AVX-512 Execution on Unsupported Hardware
   group: featured
   image: images/projects/dr.avx.jpg
-  link: dr.avx
+  link: static/dr.avx
 
 - title: DeployFix
   subtitle: Dynamic Repair of Software Deployment Failures via Constraint Solving
