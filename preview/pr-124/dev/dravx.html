@@ -43,6 +43,14 @@
         }
     </script>
     <style>
+        #root:empty::before {
+            content: "Loading Dr.avx...";
+            display: block;
+            padding: 20px;
+            color: #3b82f6;
+            text-align: center;
+            font-family: monospace;
+        }
         body {
             background-color: #0f172a;
             color: #f8fafc;
@@ -70,15 +78,9 @@
 </head>
 
 <body>
-    <div id="dravx-root"></div>
+    <div id="root"></div>
 
     <script type="text/babel">
-        console.log('=== Debug Info ===');
-        console.log('React loaded:', typeof React !== 'undefined');
-        console.log('ReactDOM loaded:', typeof ReactDOM !== 'undefined');
-        console.log('Babel loaded:', typeof Babel !== 'undefined');
-        console.log('Root element:', document.getElementById('dravx-root'));
-
         const { useState, useEffect } = React;
 
         // --- Icons Component Wrapper ---
@@ -626,9 +628,10 @@ cmake --build build -j"$(nproc)"`;
             );
         };
 
-        const root = ReactDOM.createRoot(document.getElementById('dravx-root'));
+        const root = ReactDOM.createRoot(document.getElementById('root'));
         root.render(<App />);
     </script>
 </body>
 
 </html>
+
