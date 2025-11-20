@@ -21,6 +21,11 @@ links:
 
 # front matter defaults
 defaults:
+  # dev directory - standalone pages without layout
+  - scope:
+      path: "dev"
+    values:
+      layout: null
   # all markdown files
   - scope:
       path: ""
