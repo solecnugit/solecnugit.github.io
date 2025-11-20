@@ -128,8 +128,8 @@ const Features = () => {
     desc: "Translates AVX-512 instructions at runtime into semantically equivalent sequences of supported instructions.",
     icon: "cpu"
   }, {
-    title: "High Performance",
-    desc: "Achieves near-native performance on real-world workloads like XZ compression and LLaMa.cpp",
+    title: "Effective Performance",
+    desc: "Achieves effective performance on real-world workloads like xz compression and LLaMa.cpp",
     icon: "zap"
   }];
   return /*#__PURE__*/React.createElement("section", {
@@ -396,14 +396,14 @@ const Benchmarks = () => {
     name: "file-archive",
     size: 20,
     className: "text-yellow-500"
-  }), "XZ Compression (Time)"), /*#__PURE__*/React.createElement("div", {
+  }), "xz Compression (Time)"), /*#__PURE__*/React.createElement("div", {
     className: "space-y-6"
   }, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
     className: "flex justify-between text-sm mb-2"
   }, /*#__PURE__*/React.createElement("span", {
     className: "text-white font-medium"
   }, "Dr.avx"), /*#__PURE__*/React.createElement("span", {
-    className: "text-green-400"
+    className: "text-blue-400"
   }, "106.64 s")), /*#__PURE__*/React.createElement("div", {
     className: "h-4 bg-black/50 rounded-full overflow-hidden"
   }, /*#__PURE__*/React.createElement("div", {
