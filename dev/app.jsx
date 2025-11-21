@@ -122,8 +122,8 @@ const Features = () => {
             icon: "cpu"
         },
         {
-            title: "High Performance",
-            desc: "Achieves near-native performance on real-world workloads like XZ compression and LLaMa.cpp",
+            title: "Effective Performance",
+            desc: "Achieves effective performance on real-world workloads like xz compression and LLaMa.cpp",
             icon: "zap"
         },
     ];
@@ -362,13 +362,13 @@ const Benchmarks = () => {
                         <div className="bg-surface p-8 rounded-2xl border border-white/10">
                             <h3 className="text-xl font-bold text-white mb-6 flex items-center gap-2">
                                 <Icon name="file-archive" size={20} className="text-yellow-500" />
-                                XZ Compression (Time)
+                                xz Compression (Time)
                             </h3>
                             <div className="space-y-6">
                                 <div>
                                     <div className="flex justify-between text-sm mb-2">
                                         <span className="text-white font-medium">Dr.avx</span>
-                                        <span className="text-green-400">106.64 s</span>
+                                        <span className="text-blue-400">106.64 s</span>
                                     </div>
                                     <div className="h-4 bg-black/50 rounded-full overflow-hidden">
                                         <div className="h-full bg-chartDravx w-[92%]"></div>
