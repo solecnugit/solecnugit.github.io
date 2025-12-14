@@ -1,3 +1,27 @@
+- title: "FlexInstru: A Flexible Instrumentation Framework for Tracing Long-Running Native Workloads"
+  authors:
+    - Wenlong Mu
+    - Ning Li
+    - Zimo Ji
+    - Jianmei Guo
+    - Bo Huang
+  type: paper
+  publisher: Journal of Systems and Software
+  description: "Understanding program runtime characteristics is crucial for tasks such as optimization and workload characterization. For long-running server-side workloads that execute as native binaries, effective profiling is essential to trace their complex runtime behaviors, enabling further optimizations to improve the reliability and efficiency of the delivered services. Widely adopted techniques for profiling these workloads include binary instrumentation and hardware-based profiling. Binary instrumentation is typically accurate but incurs high overhead and lacks flexibility for tracing long-running native workloads. Hardware-based profiling brings low overhead while requiring hardware support. To overcome these limitations, we present FlexInstru, a hardware-independent dynamic instrumentation framework based on the process attachment/detachment mechanism. FlexInstru can flexibly instrument a native application at any time and for any duration when the application is running, and achieve a good balance between instrumentation accuracy and overhead, which makes it particularly effective in tracing long-running native workloads."
+  date: 2025-12-12
+  image: images/publications/flexinstru.jpg
+  buttons:
+    - type: website
+      link: https://doi.org/10.1016/j.jss.2025.112739
+    - type: source
+      link: https://github.com/solecnugit/FlexInstru
+  tags:
+    - profiling
+    - tracing
+    - binary instrumentation
+    - BOLT optimization
+  link: https://doi.org/10.1016/j.jss.2025.112739
+
 - title: "Fragmentation Harmonization for the Arm Ecosystem: A Unified Method to Measure Memory Bandwidth via Network-on-Chip"
   authors:
     - Tong-yu Liu

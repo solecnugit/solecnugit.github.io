@@ -1,3 +1,9 @@
+- title: FlexInstru
+  subtitle: A Flexible Instrumentation Framework for Tracing Long-Running Native Workloads
+  group: featured
+  image: images/projects/flexinstru.jpg
+  link: https://github.com/solecnugit/FlexInstru
+
 - title: Dr.avx
   subtitle: Seamless AVX-512 Execution on Unsupported Hardware
   group: featured
