@@ -1,6 +1,6 @@
 ---
 name: Jiaxuan Li
-image: images/members/Jiaxuan-Li.jpg  
+image: images/members/jiaxuan-li.jpg  
 role: undergraduatestu
 grade: 2022
 description: 
