@@ -11,7 +11,6 @@
   - Huang Bo
   type: paper
   publisher: 2026 IEEE/ACM International Symposium on Code Generation and Optimization
-    (CGO)
   description: "Modern processors are breaking a fundamental rule: backward compatibility\
     \ within their own ISA families. We term this Generational ISA Fragmentation (GIF),\
     \ where newer processors cannot execute instructions supported by prior generations\
@@ -33,7 +32,7 @@
   buttons:
   - type: website
     link: https://ieeexplore.ieee.org/abstract/document/11394840
-  - type: website
+  - type: source
     link: https://solelab.tech/dev/dravx
   tags:
   - ISA Compatibility
