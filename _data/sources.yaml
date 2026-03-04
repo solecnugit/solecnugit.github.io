@@ -7,14 +7,14 @@
     - Guo Jianmei
     - Huang Bo
   type: paper
-  publisher: 2026 IEEE/ACM International Symposium on Code Generation and Optimization (CGO)
+  publisher: 2026 IEEE/ACM International Symposium on Code Generation and Optimization
   description: "Modern processors are breaking a fundamental rule: backward compatibility within their own ISA families. We term this Generational ISA Fragmentation (GIF), where newer processors cannot execute instructions supported by prior generations within the same ISA family. This phenomenon is exemplified by Intel's removal of AVX-512 from Alder Lake processors after years of deployment, ARM's inconsistent support for SVE across cores, and RISC-V's incompatible vector specifications. GIF causes illegal instruction crashes when running applications optimized for earlier processors on newer hardware, threatening the foundation of software portability that has underpinned decades of computing evolution. To address this, we present Dr.avx, a dynamic compilation system that enables seamless AVX-512 execution on hardware without AVX-512 support through instruction mirroring, AVX lowering, and scalar fallback strategies. Evaluation results show that Dr.avx outperforms Intel’s proprietary SDE across SPEC benchmarks, production databases, and LLM inference. By providing an open and extensible implementation, our work offers a practical remedy for AVX-512 fragmentation and a scalable blueprint for addressing GIF problems across all major ISAs."
   date: 2026-3-1
   image: images/publications/Dravx.jpg
   buttons:
     - type: website
       link: https://ieeexplore.ieee.org/abstract/document/11394840
-    - type: website
+    - type: source
       link: https://solelab.tech/dev/dravx
   tags:
     -  ISA Compatibility
