@@ -1,5 +1,49 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- title: 'CDMF: A Cross-ISA Data Morphing Framework to Enhance Library ABI Compatibility
+    in Static Binary Translation'
+  authors:
+  - Yilei Zhang
+  - Yinqiu Chen
+  - Jinrui Shi
+  - Jianmei Guo
+  - Bo Huang
+  type: paper
+  publisher: ACM Transactions on Architecture and Code Optimization
+  description: "The use of standard libraries is a common practice in software development,\
+    \ highlighting the critical need to enhance library Application Binary Interface\
+    \ (ABI) compatibility across diverse Instruction Set Architectures (ISAs) in binary\
+    \ translation. While standard library functions\u2019 Application Programming\
+    \ Interface (API) remains consistent across ISAs, their detailed implementations,\
+    \ particularly those involving composite data types, exhibit certain variations.\
+    \ These discrepancies result in ABI inconsistencies for identical function APIs\
+    \ across ISAs. Failure to resolve such ABI mismatches during binary translation\
+    \ can lead to misinterpretation of data passed via the ABI on the target ISA,\
+    \ ultimately causing application crashes. This paper introduces CDMF, a Cross-ISA\
+    \ Data Morphing Framework to enhance library ABI compatibility in static binary\
+    \ translation (SBT). CDMF automates the detection of cross-ISA library ABI incompatibilities,\
+    \ addressing challenges that previously demanded manual intervention. Our evaluation\
+    \ shows that integrating CDMF with EFACT_MC improves the translation success rates\
+    \ by 33.3% on SPEC CPU\xAE 2006 C benchmarks. Furthermore, we present EC-SBT,\
+    \ a retargetable SBT enhanced by CDMF, which efficiently migrates x86_64 binaries\
+    \ to AArch64. Compared with Box64, EC-SBT is 1.74\xD7 faster on EEMBC and is 1.23\xD7\
+    \ faster on SPEC CPU\xAE 2006 C benchmarks, showcasing its efficiency."
+  date: '2026-05-08'
+  image: images/publications/CDMF.jpg
+  buttons:
+  - type: website
+    link: https://dl.acm.org/doi/10.1145/3795140
+  - type: source
+    link: none
+  tags:
+  - cross-ISA data morphing
+  - library ABI compatibility
+  - polymorphic composite detection
+  - static binary translation
+  - reverse engineering
+  link: https://dl.acm.org/doi/10.1145/3795140
+  plugin: sources.py
+  file: sources.yaml
 - title: 'Dr.avx: A Dynamic Compilation System for Seamlessly Executing Hardware-Unsupported
     Vectorization Instructions'
   authors:
