@@ -1,7 +1,7 @@
 ---
 name: Kaiwen Yao
 image: images/members/Kaiwen-Yao.jpg
-role: undergraduatestu
+role: alumni
 grade: 2022
 description: 
 links:
