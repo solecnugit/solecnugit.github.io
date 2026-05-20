@@ -1,11 +1,11 @@
 ---
 name: Jing Xu
 image: images/members/jing-xu.jpg
-role: masterstu
+role: alumni
 grade: 2023
-description: 
+description: Sugon
 links:
-  email: 51265903015@stu.ecnu.edu.cn
+  email: 703997027@qq.com
 ---
 
-Jing Xu is pursuing a graduate degree from the School of Data Science and Engineering, East China Normal University, Shanghai, China. Her research focuses include web load measurement and optimization.
+Jing Xu received a graduate degree from the School of Data Science and Engineering, East China Normal University. Her research direction is web application performance optimization, retrieval-augmented generation, and large language model inference.
