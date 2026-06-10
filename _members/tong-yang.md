@@ -1,9 +1,9 @@
 ---
 name: Tong Yang
 image: images/members/Tong-Yang.jpg
-role: masterstu
+role: alumni
 grade: 2023
-description: 
+description: Zeron
 links:
   email: tyang2001@163.com
 ---
