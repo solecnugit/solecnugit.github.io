@@ -53,6 +53,8 @@ links:
 > [!NOTE]
 > 已经毕业的校友，description 为现在所在的单位
 
+`student_type` 属性：校友（`role: alumni`）专用，记录该成员毕业前的身份，用于 Alumni 栏目的排序。可选值：`phdstu`、`masterstu`、`undergraduatestu`。 Alumni 栏目的排序规则为：先按 `student_type` 排序（phdstu → masterstu → undergraduatestu），再按 `grade` 排序（入学年份从小到大）
+
 `links` 属性：支持多种链接，包括 email，orcid，github 等，具体参见：https://greene-lab.gitbook.io/lab-website-template-docs/basics/team-members#add-remove-members ，建议添加 email，orcid，github 这三项，其格式参照上方示例。
 
 之后的部分，可以用 Markdown 自行编辑，可以添加个人简历、项目经历、发表论文、参与项目等各类信息。
