@@ -35,7 +35,15 @@ We foster an environment where team members are treated equally, and where we re
 
 ### Alumni
 
-{% include list.html data="members" component="portrait" filters="role: alumni" style="small" %}
+{% assign alumni = site.members | where: "role", "alumni" %}
+{% assign alumni_phd = alumni | where: "student_type", "phdstu" | sort: "grade" %}
+{% assign alumni_master = alumni | where: "student_type", "masterstu" | sort: "grade" %}
+{% assign alumni_undergrad = alumni | where: "student_type", "undergraduatestu" | sort: "grade" %}
+{% assign alumni_sorted = alumni_phd | concat: alumni_master | concat: alumni_undergrad %}
+
+{% for member in alumni_sorted %}
+  {% include portrait.html lookup=member.slug style="small" %}
+{% endfor %}
 
 {% include section.html %}
 
