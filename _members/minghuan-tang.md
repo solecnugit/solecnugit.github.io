@@ -1,8 +1,9 @@
 ---
 name: Minghuan Tang
 image: images/members/minghuan-tang.jpg
-role: masterstu
+role: alumni
 grade: 2023
+student_type: masterstu
 description: 
 links:
   email: 51265903070@stu.ecnu.edu.cn
