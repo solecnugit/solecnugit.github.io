@@ -3,6 +3,7 @@ name: Jia-ning Yang
 image: images/members/jianing-yang.jpg
 role: alumni
 grade: 2023
+student_type: masterstu
 description: Huawei
 links:
   email: 1076819326@qq.com

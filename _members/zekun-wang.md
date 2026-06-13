@@ -3,6 +3,7 @@ name: Zekun Wang
 image: images/members/zekun-wang.jpg
 role: alumni
 grade: 2022
+student_type: masterstu
 description: Huawei
 links:
   email: 1131623843@qq.com

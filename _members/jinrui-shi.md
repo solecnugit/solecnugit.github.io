@@ -3,6 +3,7 @@ name: Jinrui Shi
 image: images/members/Jinrui-Shi.jpg
 role: alumni
 grade: 2023
+student_type: masterstu
 description: Bytedance
 links: https://github.com/Thrrreeee
 email: 1379998393@qq.com

@@ -3,6 +3,7 @@ name: Huanlun Cheng
 image: images/members/Huanlun-Cheng.jpg
 role: alumni
 grade: 2022
+student_type: masterstu
 description: ARM China
 links:
   email: huaun@stu.ecnu.edu.cn

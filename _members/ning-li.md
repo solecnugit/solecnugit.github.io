@@ -3,6 +3,7 @@ name: Ning Li
 image: images/members/ning-li.jpg
 role: alumni
 grade: 2021
+student_type: phdstu
 description: ByteDance
 links:
   email: ningli@stu.ecnu.edu.cn

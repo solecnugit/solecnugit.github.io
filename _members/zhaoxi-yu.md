@@ -3,6 +3,7 @@ name: Zhaoxi Yu
 image: images/members/zhaoxi-yu.jpg
 role: alumni
 grade: 2021
+student_type: masterstu
 description: 
 links:
   email: 51215903031@stu.ecnu.edu.cn

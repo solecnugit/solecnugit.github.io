@@ -3,6 +3,7 @@ name: Di Wu
 image: images/members/di-wu.jpg
 role: alumni
 grade: 2022
+student_type: masterstu
 description: Huawei
 links:
   email: wuuudiii@qq.com

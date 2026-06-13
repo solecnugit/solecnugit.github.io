@@ -3,6 +3,7 @@ name: Yujie Han
 image: images/members/yujie-han.jpg
 role: alumni
 grade: 2022
+student_type: masterstu
 description: Civil Servant
 links:
   email: yjhan1@stu.ecnu.edu.cn

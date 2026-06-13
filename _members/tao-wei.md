@@ -3,6 +3,7 @@ name: Tao Wei
 image: images/members/tao-wei.jpg
 role: alumni
 grade: 2022
+student_type: masterstu
 description: Huawei
 links:
   email: w1136862851@qq.com

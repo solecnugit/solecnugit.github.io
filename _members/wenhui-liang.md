@@ -3,6 +3,7 @@ name: Wenhui Liang
 image: images/members/wenhui-liang.jpg
 role: alumni
 grade: 2021
+student_type: masterstu
 description: Iluvatar CoreX
 links:
   email: 51215903095@stu.ecnu.edu.cn

@@ -3,6 +3,7 @@ name: Xue-yu Zhang
 image: images/members/xueyu-zhang.jpg
 role: alumni
 grade: 2021
+student_type: masterstu
 description: Huawei
 links:
   email: xyzhang@stu.ecnu.edu.cn

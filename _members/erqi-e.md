@@ -1,9 +1,10 @@
 ---
 name: Erqi
 image: images/members/erqi-e.jpg
-role: undergraduatestu
+role: alumni
 grade: 2022
-description: 
+student_type: undergraduatestu
+description: Fudan University
 links:
   email: 1320610652@qq.com
 ---

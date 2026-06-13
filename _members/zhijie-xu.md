@@ -3,6 +3,7 @@ name: Zhijie Xu
 image: images/members/zhijie-xu.jpg
 role: alumni
 grade: 2022
+student_type: masterstu
 description: Ningbo University
 links:
   email: 51255903062@stu.ecnu.edu.cn

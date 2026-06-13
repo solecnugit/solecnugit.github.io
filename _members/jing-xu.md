@@ -3,6 +3,7 @@ name: Jing Xu
 image: images/members/jing-xu.jpg
 role: alumni
 grade: 2023
+student_type: masterstu
 description: Sugon
 links:
   email: 703997027@qq.com

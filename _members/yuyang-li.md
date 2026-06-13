@@ -3,6 +3,7 @@ name: Yuyang Li
 image: images/members/yuyang-li.jpg
 role: alumni
 grade: 2021
+student_type: masterstu
 description: Xiaomi
 links:
   email: yuyangli@stu.ecnu.edu.cn
