@@ -45,15 +45,21 @@
 .portrait-text {
   display: flex;
   flex-direction: column;
+  gap: 4px;
 }
 
 .portrait-name {
   font-family: var(--heading);
   font-weight: var(--semi-bold);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
 }
 
 .portrait-role {
   font-size: 14px;
+  line-height: 1.2;
 }
 
 .portrait-role .icon {
