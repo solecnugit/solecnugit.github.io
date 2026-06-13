@@ -1,9 +1,9 @@
 ---
 name: Kaiwen Yao
 image: images/members/Kaiwen-Yao.jpg
-role: undergraduatestu
+role: alumni
 grade: 2022
-description: 
+description: Master's student at SYSU
 links:
   email: 10224507041@stu.ecnu.edu.cn
 ---
