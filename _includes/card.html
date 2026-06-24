@@ -30,7 +30,7 @@
     </a>
     {% endif %}
 
-    {% if include.subtitle %}
+    {% if include.subtitle and include.subtitle != "" %}
       <span class="card-subtitle">{{ include.subtitle }}</span>
     {% endif %}
 
