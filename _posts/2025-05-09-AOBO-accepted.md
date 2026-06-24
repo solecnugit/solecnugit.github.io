@@ -1,6 +1,5 @@
 ---
 title: Paper Accepted by ACM TACO
-author: Admin
 tags:
   - paper
 ---

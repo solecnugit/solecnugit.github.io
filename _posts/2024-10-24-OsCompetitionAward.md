@@ -1,6 +1,5 @@
 ---
 title: SOLERs Win Awards in the National Competition
-author: Admin
 tags:
   - award
 ---

@@ -1,6 +1,5 @@
 ---
 title: Paper Accepted by Journal of Systems and Software
-author: Admin
 tags:
   - paper
 ---

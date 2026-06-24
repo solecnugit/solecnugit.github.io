@@ -1,6 +1,5 @@
 ---
 title: Paper Accepted by IEEE TPDS
-author: Admin
 tags:
   - paper
 ---

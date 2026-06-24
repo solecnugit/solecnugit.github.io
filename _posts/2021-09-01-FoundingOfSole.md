@@ -1,6 +1,5 @@
 ---
 title: SOLE Was Established!
-author: Admin
 tags:
   - event
 ---

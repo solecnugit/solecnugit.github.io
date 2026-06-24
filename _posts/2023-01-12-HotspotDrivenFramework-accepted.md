@@ -1,6 +1,5 @@
 ---
 title: Paper Accepted by ACM CC
-author: Admin
 tags:
   - paper
 ---

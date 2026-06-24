@@ -1,6 +1,5 @@
 ---
 title: SOLERs Received Scholarships!
-author: Admin
 tags:
   - award
 ---
