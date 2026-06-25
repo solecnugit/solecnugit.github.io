@@ -1,3 +1,27 @@
+- title: "RVV-Morpher: A Semantic-Aware Static Binary Rewriter forCross-Version Portability in RVV"
+  authors:
+    - Yuexi Zou
+    - Jianing Yang
+    - Jianmei Guo
+    - Bo Huang
+  type: paper
+  publisher: ACM Transactions on Embedded Computing Systems
+  description: "RVV (RISC-V Vector Extension) provides a flexible and scalable vector architecture that enables high performance across multiple domains. However, the continuous evolution of the RVV specification, from early drafts to the ratified v1.0, has led to notable ISA (Instruction Set Architecture) fragmentation, which poses persistent challenges to the longevity and portability of compiled software. In particular, binaries produced for one ISA version often fail to execute correctly on hardware supporting another ISA version, thereby undermining both software portability and hardware reuse. To bridge this gap and enrich the RISC-V software ecosystem, this paper presents RVV-Morpher, a semantic-aware static binary rewriting framework that enables portability across binaries targeting different RVV versions. Operating directly at the binary level, RVV-Morpher preserves program correctness and generates efficient code by decoding, analyzing, optimizing, and reconstructing vector instructions to bridge differences in encoding and semantics."
+  date: 2026-06-08
+  image: images/publications/RVV-Morpher.png
+  buttons:
+    - type: website
+      link: https://doi.org/10.1145/3820780
+    - type: source
+      link: none
+  tags:
+    - static analysis
+    - binary rewriting
+    - RVV
+    - vectorization
+  link: https://doi.org/10.1145/3820780
+
+
 - title: "CDMF: A Cross-ISA Data Morphing Framework to Enhance Library ABI Compatibility in Static Binary Translation"
   authors:
     - Yilei Zhang
