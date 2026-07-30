@@ -1,5 +1,43 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- title: 'AutoCO: An Online Continuous Optimization System for Phase-Changing Database
+    Workloads'
+  authors:
+  - Yufeng Li
+  - Yue Tang
+  - Yinqiu Chen
+  - Haoyu Liao
+  - Jianmei Guo
+  - Zhaohui Du
+  - Zhiwei Ying
+  - Bo Huang
+  type: paper
+  publisher: ACM Transactions on Architecture and Code Optimization
+  description: AutoCO is a cross-architecture continuous online binary optimization
+    system designed for long-running applications with phase-changing workloads. Unlike
+    existing online optimizers that perform only a single optimization round, AutoCO
+    establishes a closed feedback loop that monitors workload behavior, filters candidate
+    phase changes through a lifetime-aware trigger, maps runtime profiles back to
+    the original binary, generates phase-specific optimized code, and safely injects
+    it into the running process without requiring a restart. It supports both x86-64
+    and AArch64 and employs asynchronous resource reclamation to remove obsolete code
+    versions. By continually aligning binary code layout with evolving runtime behavior,
+    AutoCO mitigates optimization staleness while maintaining execution robustness
+    and sustainable memory usage.
+  date: '2026-07-30'
+  image: images/publications/AutoCO.png
+  buttons:
+  - type: website
+    link: https://dl.acm.org/doi/10.1145/3832323
+  - type: source
+    link: none
+  tags:
+  - continuous online optimization
+  - phase change
+  - cross-architecture
+  link: https://dl.acm.org/doi/10.1145/3832323
+  plugin: sources.py
+  file: sources.yaml
 - title: 'RVV-Morpher: A Semantic-Aware Static Binary Rewriter forCross-Version Portability
     in RVV'
   authors:
