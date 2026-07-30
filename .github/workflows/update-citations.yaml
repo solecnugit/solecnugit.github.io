@@ -7,12 +7,20 @@ on:
     inputs:
       open-pr:
         type: boolean
+      write-back:
+        type: boolean
+        default: false
     outputs:
       changed:
         value: ${{ jobs.update-citations.outputs.changed }}
 
   # run if user manually requests it
   workflow_dispatch:
+    inputs:
+      write-back:
+        description: Write updated citations back to the checked-out ref
+        type: boolean
+        default: true
 
 permissions:
   contents: write
@@ -28,14 +36,11 @@ jobs:
     timeout-minutes: 15
 
     steps:
-      # for debugging
-      - uses: crazy-max/ghaction-dump-context@v2
-
       - name: Checkout branch contents
         uses: actions/checkout@v4
         with:
-          repository: ${{ github.event.pull_request.head.repo.full_name }}
-          ref: ${{ github.head_ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name || github.repository }}
+          ref: ${{ github.head_ref || github.ref_name }}
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -66,6 +71,7 @@ jobs:
       - name: Commit updated citations to branch
         if: |
           steps.changed.outputs.files_changed == 'true' &&
+          inputs.write-back == true &&
           inputs.open-pr != true
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
@@ -74,6 +80,7 @@ jobs:
       - name: Open pull request with updated citations
         if: |
           steps.changed.outputs.files_changed == 'true' &&
+          inputs.write-back == true &&
           inputs.open-pr == true
         uses: peter-evans/create-pull-request@v6
         with:

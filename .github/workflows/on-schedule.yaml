@@ -20,6 +20,7 @@ jobs:
     uses: ./.github/workflows/update-citations.yaml
     with:
       open-pr: true
+      write-back: true
 
   build-preview:
     needs: update-citations

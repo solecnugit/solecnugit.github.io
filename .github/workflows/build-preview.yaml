@@ -21,14 +21,11 @@ jobs:
     runs-on: ubuntu-22.04
 
     steps:
-      # for debugging
-      - uses: crazy-max/ghaction-dump-context@v2
-
       - name: Checkout branch contents
         uses: actions/checkout@v4
         with:
-          repository: ${{ github.event.pull_request.head.repo.full_name }}
-          ref: ${{ github.head_ref }}
+          repository: ${{ github.event.pull_request.head.repo.full_name || github.repository }}
+          ref: ${{ github.head_ref || github.ref_name }}
 
       - name: Install Ruby packages
         if: github.event.action != 'closed'

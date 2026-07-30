@@ -2,7 +2,7 @@ name: on-pull-request
 run-name: on pull request activity
 
 on:
-  pull_request_target:
+  pull_request:
     types:
       - opened
       - reopened
@@ -15,8 +15,12 @@ permissions:
 
 jobs:
   update-citations:
+    if: github.event.pull_request.head.repo.full_name == github.repository
     uses: ./.github/workflows/update-citations.yaml
+    with:
+      write-back: true
 
   build-preview:
     needs: update-citations
+    if: github.event.pull_request.head.repo.full_name == github.repository
     uses: ./.github/workflows/build-preview.yaml
