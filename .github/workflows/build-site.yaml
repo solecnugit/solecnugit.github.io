@@ -4,9 +4,19 @@ run-name: build live site
 on:
   # run when called from another workflow
   workflow_call:
+    inputs:
+      ref:
+        description: Git ref to check out before building
+        type: string
+        default: ""
 
   # run if user manually requests it
   workflow_dispatch:
+    inputs:
+      ref:
+        description: Git ref to check out before building
+        type: string
+        default: ""
 
 # variables
 env:
@@ -25,6 +35,8 @@ jobs:
 
       - name: Checkout branch contents
         uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref || github.ref_name }}
 
       - name: Install Ruby packages
         uses: ruby/setup-ruby@v1.172.0

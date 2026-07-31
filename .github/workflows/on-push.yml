@@ -24,3 +24,5 @@ jobs:
   build-site:
     needs: update-citations
     uses: ./.github/workflows/build-site.yaml
+    with:
+      ref: main
