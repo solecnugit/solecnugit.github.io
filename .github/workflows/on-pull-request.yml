@@ -15,12 +15,12 @@ permissions:
 
 jobs:
   update-citations:
+    # 只在同仓库的 PR 中运行
     if: github.event.pull_request.head.repo.full_name == github.repository
     uses: ./.github/workflows/update-citations.yaml
     with:
       write-back: true
 
   build-preview:
-    needs: update-citations
-    if: github.event.pull_request.head.repo.full_name == github.repository
+    # 所有 PR 都构建预览，不依赖 update-citations
     uses: ./.github/workflows/build-preview.yaml
