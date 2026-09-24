@@ -5,7 +5,7 @@ image: images/members/licheng-zhou.jpg
 grade: 2026
 description: 
 links:
-    email: licheng.zhou@ecnu.edu.cn
+    email: licheng.zhou@stu.ecnu.edu.cn
     github: RidiculousBuffal
 ---
 
