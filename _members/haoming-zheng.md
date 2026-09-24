@@ -1,6 +1,6 @@
 ---
 name: Haoming Zheng
-image: images/members/haoming-zheng.jpg
+image: images/members/haoming-Zheng.jpg
 role: masterstu
 grade: 2026
 description: 
