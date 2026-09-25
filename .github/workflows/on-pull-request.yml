@@ -2,7 +2,9 @@ name: on-pull-request
 run-name: on pull request activity
 
 on:
-  pull_request:
+  # 使用 pull_request_target，使外部用户提交 PR 后无需维护者逐个批准即可生成预览。
+  # 注意：build-preview 会 checkout 并执行 PR 分支中的代码，同时需要写入 gh-pages。
+  pull_request_target:
     types:
       - opened
       - reopened
