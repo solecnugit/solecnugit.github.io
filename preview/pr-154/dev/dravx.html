@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr.avx</title>
+
+    <!-- React & ReactDOM (Local) -->
+    <script src="./lib/react.production.min.js"></script>
+    <script src="./lib/react-dom.production.min.js"></script>
+
+    <!-- Tailwind CSS (Local) -->
+    <script src="./lib/tailwindcss.js"></script>
+
+    <!-- Lucide Icons (Local) -->
+    <script src="./lib/lucide.min.js"></script>
+
+    <!-- Tailwind Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#3b82f6',
+                        dark: '#0f172a',
+                        darker: '#020617',
+                        surface: '#1e293b',
+                        // Updated Color Scheme
+                        chartNative: '#10b981', // Green
+                        chartDravx: '#3b82f6',  // Blue (Same as primary)
+                        chartSde: '#94a3b8',    // Gray
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                        mono: ['Fira Code', 'monospace'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        #root:empty::before {
+            content: "Loading Dr.avx...";
+            display: block;
+            padding: 20px;
+            color: #3b82f6;
+            text-align: center;
+            font-family: monospace;
+        }
+        body {
+            background-color: #0f172a;
+            color: #f8fafc;
+            scroll-behavior: smooth;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #0f172a;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #334155;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #475569;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="root"></div>
+
+    <!-- Compiled Application Code (No Babel needed!) -->
+    <script src="./app.js"></script>
+</body>
+
+</html>
