@@ -6,7 +6,7 @@ image: images/members/chunxu-tu.jpg
 grade: 2026
 description:
 links:
-  email: [51295903080@stu.ecnu.edu.cn](mailto:51295903080@stu.ecnu.edu.cn)
+  email: 51295903080@stu.ecnu.edu.cn
   github: teiyut0u
 ---
 
